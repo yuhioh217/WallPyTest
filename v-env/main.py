@@ -21,6 +21,7 @@ def control(argv):
       time.sleep(4)
       os.rename('./recordfile/'+ fileList[0], './recordfile/' + argv + '_' + fileList[0])
       os.popen("adb shell \"su 0 rm -rf /sdcard/Android/data/swpc.wistron.com.wiwall.tv/files/logs/" + fileList[0] + "\"")
+      time.sleep(2)
       os.popen("adb shell \"su 0 rm -rf /data/data/swpc.wistron.com.wiwall.tv/cache\"")
       os.popen("adb shell \"su 0 rm -rf /data/data/swpc.wistron.com.wiwall.tv/code_cache\"")
       os.popen("adb shell \"su 0 rm -rf /data/data/swpc.wistron.com.wiwall.tv/databases\"")

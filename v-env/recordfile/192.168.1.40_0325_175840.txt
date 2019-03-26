@@ -1,0 +1,1021 @@
+--------- beginning of main
+03-25 17:58:40.692 I/ContactLocale( 2772): AddressBook Labels [en-US]: [, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, Α, Β, Γ, Δ, Ε, Ζ, Η, Θ, Ι, Κ, Λ, Μ, Ν, Ξ, Ο, Π, Ρ, Σ, Τ, Υ, Φ, Χ, Ψ, Ω, , А, Б, В, Г, Д, Ђ, Е, Є, Ж, З, И, І, Й, Ј, К, Л, Љ, М, Н, Њ, О, П, Р, С, Т, Ћ, У, Ф, Х, Ц, Ч, Џ, Ш, Щ, Ю, Я, , א, ב, ג, ד, ה, ו, ז, ח, ט, י, כ, ל, מ, נ, ס, ע, פ, צ, ק, ר, ש, ת, , ا, ب, ت, ث, ج, ح, خ, د, ذ, ر, ز, س, ش, ص, ض, ط, ظ, ع, غ, ف, ق, ك, ل, م, ن, ه, و, ي, , ก, ข, ฃ, ค, ฅ, ฆ, ง, จ, ฉ, ช, ซ, ฌ, ญ, ฎ, ฏ, ฐ, ฑ, ฒ, ณ, ด, ต, ถ, ท, ธ, น, บ, ป, ผ, ฝ, พ, ฟ, ภ, ม, ย, ร, ฤ, ล, ฦ, ว, ศ, ษ, ส, ห, ฬ, อ, ฮ, , ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅅ, ㅇ, ㅈ, ㅊ, ㅋ, ㅌ, ㅍ, ㅎ, , あ, か, さ, た, な, は, ま, や, ら, わ, #, ]
+03-25 17:58:40.692 I/a       ( 2757): set none fix orientation
+03-25 17:58:40.719 D/LogcatRecorder( 2757): Record logs: /storage/emulated/0/Android/data/swpc.wistron.com.wiwall.tv/files/logs/0325_175840.txt
+03-25 17:58:40.737 D/c       ( 2757): Add Logcat Whitelist
+03-25 17:58:40.737 D/c       ( 2757): Generate Command: logcat -P '2757'
+03-25 17:58:40.749 W/System  ( 2800): ClassLoader referenced unknown path: /system/priv-app/MusicFX/lib/arm64
+03-25 17:58:40.751 D/a       ( 2757): Free space is 7567093760 bytes
+03-25 17:58:40.758 D/a       ( 2757): Free space is 7567093760 bytes
+03-25 17:58:40.760 D/a       ( 2757): Next sync content count is 0
+03-25 17:58:40.760 W/art     ( 2757): Before Android 4.1, method android.graphics.PorterDuffColorFilter android.support.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+03-25 17:58:40.760 D/c       ( 2757): Dir Already Exist
+03-25 17:58:40.764 I/a       ( 2757): persist.wicanvas.orientation = 0
+03-25 17:58:40.767 D/LifecycleHandler( 2757): onActivityCreated
+--------- beginning of system
+03-25 17:58:40.776 I/ActivityManager( 1042): Start proc 2823:com.android.gallery3d/u0a44 for broadcast com.android.gallery3d/.app.PackagesMonitor
+03-25 17:58:40.779 D/a       ( 2757): onTaskComplete activeSyncCount = 1
+03-25 17:58:40.779 I/ActivityManager( 1042): Killing 2252:com.android.onetimeinitializer/u0a12 (adj 15): empty #17
+03-25 17:58:40.872 I/MSM-irqbalance(  581): Decided to move IRQ304 from CPU3 to CPU1
+03-25 17:58:40.929 W/ContextImpl( 2757): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1221 android.content.ContextWrapper.startService:581 swpc.wistron.com.wiwall.tv.activity.MainActivity.onCreate:92 android.app.Activity.performCreate:6290 android.app.Instrumentation.callActivityOnCreate:1108 
+03-25 17:58:40.933 D/LogcatRecorder( 2757): get Record count exception: java.io.FileNotFoundException: /storage/emulated/0/Android/data/swpc.wistron.com.wiwall.tv/files/record_crash/timestamp_device.txt: open failed: ENOENT (No such file or directory)
+03-25 17:58:40.933 D/LogcatRecorder( 2757): java.io.FileNotFoundException: /storage/emulated/0/Android/data/swpc.wistron.com.wiwall.tv/files/record_crash/timestamp_device.txt: open failed: ENOENT (No such file or directory)
+03-25 17:58:40.933 D/LogcatRecorder( 2757): 	at libcore.io.IoBridge.open(IoBridge.java:452)
+03-25 17:58:40.933 D/LogcatRecorder( 2757): 	at java.io.FileInputStream.<init>(FileInputStream.java:76)
+03-25 17:58:40.933 D/LogcatRecorder( 2757): 	at swpc.wistron.com.wiwall.tv.general.f.b(SourceFile:286)
+03-25 17:58:40.933 D/LogcatRecorder( 2757): 	at swpc.wistron.com.wiwall.tv.activity.MainActivity.onCreate(SourceFile:96)
+03-25 17:58:40.933 D/LogcatRecorder( 2757): 	at android.app.Activity.performCreate(Activity.java:6290)
+03-25 17:58:40.933 D/LogcatRecorder( 2757): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1108)
+03-25 17:58:40.933 D/LogcatRecorder( 2757): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2369)
+03-25 17:58:40.933 D/LogcatRecorder( 2757): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2476)
+03-25 17:58:40.933 D/LogcatRecorder( 2757): 	at android.app.ActivityThread.access$900(ActivityThread.java:150)
+03-25 17:58:40.933 D/LogcatRecorder( 2757): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1344)
+03-25 17:58:40.933 D/LogcatRecorder( 2757): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+03-25 17:58:40.933 D/LogcatRecorder( 2757): 	at android.os.Looper.loop(Looper.java:148)
+03-25 17:58:40.933 D/LogcatRecorder( 2757): 	at android.app.ActivityThread.main(ActivityThread.java:5417)
+03-25 17:58:40.933 D/LogcatRecorder( 2757): 	at java.lang.reflect.Method.invoke(Native Method)
+03-25 17:58:40.933 D/LogcatRecorder( 2757): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+03-25 17:58:40.933 D/LogcatRecorder( 2757): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+03-25 17:58:40.933 D/LogcatRecorder( 2757): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+03-25 17:58:40.933 D/LogcatRecorder( 2757): 	at libcore.io.Posix.open(Native Method)
+03-25 17:58:40.933 D/LogcatRecorder( 2757): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:186)
+03-25 17:58:40.933 D/LogcatRecorder( 2757): 	at libcore.io.IoBridge.open(IoBridge.java:438)
+03-25 17:58:40.933 D/LogcatRecorder( 2757): 	... 15 more
+03-25 17:58:40.934 D/LifecycleHandler( 2757): onActivityStarted
+03-25 17:58:40.950 W/art     ( 2823): Suspending all threads took: 13.638ms
+03-25 17:58:41.056 I/ActivityManager( 1042): Start proc 2840:com.android.keychain/1000 for broadcast com.android.keychain/.KeyChainBroadcastReceiver
+03-25 17:58:41.063 I/ActivityManager( 1042): Killing 1916:com.android.settings/1000 (adj 15): empty #17
+03-25 17:58:41.150 W/System  ( 2840): ClassLoader referenced unknown path: /system/app/KeyChain/lib/arm64
+03-25 17:58:41.153 W/ContextImpl( 2840): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1221 android.content.ContextWrapper.startService:581 android.content.ContextWrapper.startService:581 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2725 
+03-25 17:58:41.173 I/ActivityManager( 1042): START u0 {flg=0x10800000 cmp=com.estrongs.android.pop/.app.InstallMonitorActivity (has extras)} from uid 10042 on display 0
+03-25 17:58:41.218 D/LifecycleHandler( 2757): onActivityResumed
+03-25 17:58:41.218 D/LifecycleHandler( 2757): application is in foreground: true
+03-25 17:58:41.222 I/ActivityManager( 1042): Start proc 2857:com.svox.pico/u0a61 for broadcast com.svox.pico/.VoiceDataInstallerReceiver
+03-25 17:58:41.225 I/ActivityManager( 1042): Killing 2394:com.android.exchange/u0a40 (adj 15): empty #17
+03-25 17:58:41.229 D/OpenGLRenderer( 2757): Use EGL_SWAP_BEHAVIOR_PRESERVED: true
+03-25 17:58:41.241 D/wpa_supplicant( 1600): wlan0: Control interface command 'SIGNAL_POLL'
+03-25 17:58:41.244 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=49
+03-25 17:58:41.254 I/a       ( 2757): onSensorChanged, X = -0.0867157, Y = -9.417526
+03-25 17:58:41.254 I/a       ( 2757): mSensorStatus = 3
+03-25 17:58:41.255 I/o       ( 2757): onStatusChecked
+03-25 17:58:41.256 E/b       ( 2757): type=1
+03-25 17:58:41.257 E/b       ( 2757): set default image
+03-25 17:58:41.283 W/FlurryAgent( 2557): Flurry session started for context:com.estrongs.android.pop.app.InstallMonitorActivity@64a8435
+03-25 17:58:41.283 W/FlurryAgent( 2557): Flurry session resumed for context:com.estrongs.android.pop.app.InstallMonitorActivity@64a8435
+03-25 17:58:41.317 I/WebViewFactory( 2557): Loading com.android.webview version 44.0.2403.119 (code 246011950)
+03-25 17:58:41.348 D/BluetoothManagerService( 1042): Message: 20
+03-25 17:58:41.348 D/BluetoothManagerService( 1042): Added callback: android.bluetooth.IBluetoothManagerCallback$Stub$Proxy@e980b01:true
+03-25 17:58:41.348 D/BluetoothManagerService( 1042): checkIfCallerIsForegroundUser: valid=true callingUser=0 parentUser=-10000 foregroundUser=0
+03-25 17:58:41.356 W/System  ( 2557): ClassLoader referenced unknown path: /system/app/webview/lib/arm64
+03-25 17:58:41.432 D/MainService( 2757): onCreate
+03-25 17:58:41.432 W/ContextImpl( 2757): Calling a method in the system process without a qualified user: android.app.ContextImpl.startActivity:658 android.content.ContextWrapper.startActivity:331 swpc.wistron.com.wiwall.tv.MainService.onCreate:178 android.app.ActivityThread.handleCreateService:2877 android.app.ActivityThread.access$1900:150 
+03-25 17:58:41.432 W/ContextImpl( 2757): Calling a method in the system process without a qualified user: android.app.ContextImpl.startActivity:670 android.app.ContextImpl.startActivity:659 android.content.ContextWrapper.startActivity:331 swpc.wistron.com.wiwall.tv.MainService.onCreate:178 android.app.ActivityThread.handleCreateService:2877 
+03-25 17:58:41.433 I/ActivityManager( 1042): START u0 {act=acion.start.mainactivity.from.mainservice flg=0x10000000 cmp=swpc.wistron.com.wiwall.tv/.activity.MainActivity} from uid 1000 on display 0
+03-25 17:58:41.441 I/LibraryLoader( 2557): Time to load native libraries: 43 ms (timestamps 8568-8611)
+03-25 17:58:41.442 I/LibraryLoader( 2557): Expected native library version number "",actual native library version number ""
+03-25 17:58:41.444 D/WifiService( 1042): New client listening to asynchronous messages
+03-25 17:58:41.453 D/BluetoothManagerService( 1042): Message: 20
+03-25 17:58:41.453 D/BluetoothManagerService( 1042): Added callback: android.bluetooth.IBluetoothManagerCallback$Stub$Proxy@3b24b7e:true
+03-25 17:58:41.456 D/BluetoothManagerService( 1042): Message: 30
+03-25 17:58:41.457 V/WebViewChromiumFactoryProvider( 2557): Binding Chromium to main looper Looper (main, tid 1) {d8b529c}
+03-25 17:58:41.457 I/LibraryLoader( 2557): Expected native library version number "",actual native library version number ""
+03-25 17:58:41.462 I/chromium( 2557): [INFO:library_loader_hooks.cc(120)] Chromium logging enabled: level = 0, default verbosity = 0
+03-25 17:58:41.463 I/b       ( 2757): server not start yet
+03-25 17:58:41.463 D/MainService( 2757): onStartCommand
+03-25 17:58:41.464 W/ContextImpl( 2757): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1285 android.content.ContextWrapper.bindService:604 swpc.wistron.com.wiwall.tv.MainService.f:263 swpc.wistron.com.wiwall.tv.MainService.onStartCommand:210 android.app.ActivityThread.handleServiceArgs:3010 
+03-25 17:58:41.466 W/ContextImpl( 2757): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1285 android.content.ContextWrapper.bindService:604 swpc.wistron.com.wiwall.tv.MainService.f:268 swpc.wistron.com.wiwall.tv.MainService.onStartCommand:210 android.app.ActivityThread.handleServiceArgs:3010 
+03-25 17:58:41.467 I/BrowserStartupController( 2557): Initializing chromium process, singleProcess=true
+03-25 17:58:41.472 D/LifecycleHandler( 2757): onActivityPaused
+03-25 17:58:41.472 D/LifecycleHandler( 2757): application is in foreground: false
+03-25 17:58:41.474 I/WindowManager( 1042): Screen frozen for +958ms due to AppWindowToken{e464836 token=Token{581b5d1 ActivityRecord{c943cf8 u0 swpc.wistron.com.wiwall.tv/.activity.MainActivity t123}}}
+03-25 17:58:41.474 I/j       ( 2757): wifi is connecting
+03-25 17:58:41.478 E/SysUtils( 2557): ApplicationContext is null in ApplicationStatus
+03-25 17:58:41.487 I/ActivityManager( 1042): Killing 2445:com.qualcomm.qct.dlt/u0a55 (adj 15): empty #17
+03-25 17:58:41.489 I/Adreno  ( 2757): QUALCOMM build                   : 0d96e1a, I741a3d36ca
+03-25 17:58:41.489 I/Adreno  ( 2757): Build Date                       : 04/20/16
+03-25 17:58:41.489 I/Adreno  ( 2757): OpenGL ES Shader Compiler Version: XE031.06.00.02
+03-25 17:58:41.489 I/Adreno  ( 2757): Local Branch                     : 
+03-25 17:58:41.489 I/Adreno  ( 2757): Remote Branch                    : quic/LA.BF64.1.2.2_rb4.34
+03-25 17:58:41.489 I/Adreno  ( 2757): Remote Branch                    : NONE
+03-25 17:58:41.489 I/Adreno  ( 2757): Reconstruct Branch               : NOTHING
+03-25 17:58:41.495 I/OpenGLRenderer( 2757): Initialized EGL, version 1.4
+03-25 17:58:41.511 D/LocalIoTService( 2757): receive boot broadcast
+03-25 17:58:41.512 W/ContextImpl( 2757): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1221 android.content.ContextWrapper.startService:581 android.content.ContextWrapper.startService:581 swpc.wistron.com.wiwall.tv.receiver.PackageReplacedReceiver.onReceive:27 android.app.ActivityThread.handleReceiver:2725 
+03-25 17:58:41.529 E/MainService( 2757): isConnected =true
+03-25 17:58:41.531 D/BluetoothA2dp( 2757): Proxy object connected
+03-25 17:58:41.536 D/AlarmService( 2757): AlarmService onCreate
+03-25 17:58:41.539 I/g       ( 2757): status =14Message: caller =MainService
+03-25 17:58:41.539 I/g       ( 2757): Configuring system
+03-25 17:58:41.539 D/MainService( 2757): System time is after 2018/01/01
+03-25 17:58:41.540 I/MainService( 2757): create SetTimeFromNTP
+03-25 17:58:41.540 D/LifecycleHandler( 2757): onActivityResumed
+03-25 17:58:41.540 D/LifecycleHandler( 2757): application is in foreground: true
+03-25 17:58:41.540 I/MainService( 2757): SetTimeFromNTP doInBackground
+03-25 17:58:41.541 D/h       ( 2757): setAutoTimeOn
+03-25 17:58:41.541 W/InputMethodManagerService( 1042): Got RemoteException sending setActive(false) notification to pid 1623 uid 1000
+03-25 17:58:41.606 W/chromium( 2557): [WARNING:resource_bundle.cc(285)] locale_file_path.empty()
+03-25 17:58:41.613 E/libEGL  ( 2557): validate_display:255 error 3008 (EGL_BAD_DISPLAY)
+03-25 17:58:41.613 E/libEGL  ( 2557): validate_display:255 error 3008 (EGL_BAD_DISPLAY)
+03-25 17:58:41.613 I/Adreno  ( 2557): QUALCOMM build                   : 0d96e1a, I741a3d36ca
+03-25 17:58:41.613 I/Adreno  ( 2557): Build Date                       : 04/20/16
+03-25 17:58:41.613 I/Adreno  ( 2557): OpenGL ES Shader Compiler Version: XE031.06.00.02
+03-25 17:58:41.613 I/Adreno  ( 2557): Local Branch                     : 
+03-25 17:58:41.613 I/Adreno  ( 2557): Remote Branch                    : quic/LA.BF64.1.2.2_rb4.34
+03-25 17:58:41.613 I/Adreno  ( 2557): Remote Branch                    : NONE
+03-25 17:58:41.613 I/Adreno  ( 2557): Reconstruct Branch               : NOTHING
+03-25 17:58:41.697 E/DataReductionProxySettingListener( 2557): No DRP key due to exception:java.lang.ClassNotFoundException: com.android.webview.chromium.Drp
+03-25 17:58:41.703 D/MainService( 2757): onStartCommand
+03-25 17:58:41.703 W/ContextImpl( 2757): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1285 android.content.ContextWrapper.bindService:604 swpc.wistron.com.wiwall.tv.MainService.f:263 swpc.wistron.com.wiwall.tv.MainService.onStartCommand:210 android.app.ActivityThread.handleServiceArgs:3010 
+03-25 17:58:41.704 W/ContextImpl( 2757): Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1285 android.content.ContextWrapper.bindService:604 swpc.wistron.com.wiwall.tv.MainService.f:268 swpc.wistron.com.wiwall.tv.MainService.onStartCommand:210 android.app.ActivityThread.handleServiceArgs:3010 
+03-25 17:58:41.705 E/FlurryAgent( 2557): GOOGLE PLAY SERVICES EXCEPTION: com.google.android.gms.common.GooglePlayServicesUtil
+03-25 17:58:41.705 E/FlurryAgent( 2557): There is a problem with the Google Play Services library, which is required for Android Advertising ID support. The Google Play Services library should be integrated in any app shipping in the Play Store that uses analytics or advertising.
+03-25 17:58:41.707 D/MainService( 2757): onIotServiceConnected
+03-25 17:58:41.707 D/MainService( 2757): onAlarmServiceConnected
+03-25 17:58:41.710 I/j       ( 2757): wifi is connecting
+03-25 17:58:41.720 I/g       ( 2757): status =14Message: caller =MainService
+03-25 17:58:41.720 I/g       ( 2757): Configuring system
+03-25 17:58:41.720 W/FlurryAgent( 2557): Flurry session paused for context:com.estrongs.android.pop.app.InstallMonitorActivity@64a8435
+03-25 17:58:41.720 D/MainService( 2757): System time is after 2018/01/01
+03-25 17:58:41.720 I/MainService( 2757): create SetTimeFromNTP
+03-25 17:58:42.097 W/FlurryAgent( 2557): Analytics report sent.
+03-25 17:58:43.091 D/h       ( 2757): setAutoTimeOff
+03-25 17:58:43.112 D/h       ( 2757): auto_time=0
+03-25 17:58:43.114 D/h       ( 2757): auto_time_zone=0
+03-25 17:58:43.171 D/MainService( 2757): set NTP server time:Mon Mar 25 17:58:43 GMT+08:00 2019
+03-25 17:58:43.173 D/AlarmManagerService( 1042): Setting time of day to sec=1553507923
+03-25 17:58:43.191 W/AlarmManagerService( 1042): Unable to set rtc to 1553507923: Invalid argument
+03-25 17:58:43.193 I/MainService( 2757): SetTimeFromNTP complete
+03-25 17:58:43.200 I/MainService( 2757): SetTimeFromNTP doInBackground
+03-25 17:58:43.200 D/h       ( 2757): setAutoTimeOn
+03-25 17:58:43.210 I/MainService( 2757): Local status = LicenseRegistred
+03-25 17:58:43.250 W/Java7Support( 2757): Unable to load JDK7 types (annotations, java.nio.file.Path): no Java7 support added
+03-25 17:58:43.285 W/ActivityThread( 2757): ClassLoader.loadClass: The class loader returned by Thread.getContextClassLoader() may fail for processes that host multiple applications. You should explicitly specify a context class loader. For example: Thread.setContextClassLoader(getClass().getClassLoader());
+03-25 17:58:43.319 D/MainService( 2757): startSettingNTP
+03-25 17:58:43.320 D/HttpRequest( 2757): url : https://apilicenseops.wicanvas.net/app/device/getDevicesStatus
+03-25 17:58:43.320 D/HttpRequest( 2757): value : {"mac_addresses":["HZ6Umt3acSvgMkXw4be3HmLytAVurJI\/6ld13GrRt\/I=\n"]}
+03-25 17:58:43.323 I/DpmTcmClient( 2757): RegisterTcmMonitor from: com.android.okhttp.TcmIdleTimerMonitor
+03-25 17:58:43.500 I/art     ( 1042): Starting a blocking GC Explicit
+03-25 17:58:43.575 I/art     ( 1042): Explicit concurrent mark sweep GC freed 22321(2MB) AllocSpace objects, 8(304KB) LOS objects, 33% free, 9MB/13MB, paused 891us total 75.334ms
+03-25 17:58:44.281 D/wpa_supplicant( 1600): wlan0: Control interface command 'SIGNAL_POLL'
+03-25 17:58:44.291 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=49
+03-25 17:58:44.322 I/g       ( 2757): status =14Message: caller =MainService
+03-25 17:58:44.322 I/g       ( 2757): Configuring system
+03-25 17:58:44.325 I/g       ( 2757): status =14Message: caller =MainService
+03-25 17:58:44.325 I/g       ( 2757): Configuring system
+03-25 17:58:44.326 I/MainService( 2757): License check OK
+03-25 17:58:44.346 I/MainService( 2757): uploadSystemAndAppLog
+03-25 17:58:44.347 D/HttpRequest( 2757): url : https://apiops.wicanvas.net/device/iot/syncMachineLatestVersion
+03-25 17:58:44.347 D/HttpRequest( 2757): value : {"mac_address":"1C:C0:E1:40:B5:98","machine_version_id":10}
+03-25 17:58:44.355 D/a       ( 2757): doInBackground
+03-25 17:58:44.355 D/a       ( 2757): getOldLogcatFiles
+03-25 17:58:44.357 D/a       ( 2757): Logcat Path: /storage/emulated/0/Android/data/swpc.wistron.com.wiwall.tv/files/logs
+03-25 17:58:44.357 D/LogCollectorAsyncTask( 2757): logFiles file is exist , size = 0
+03-25 17:58:44.359 D/HttpRequest( 2757): url : https://apiops.wicanvas.net/app/machine/getSourceIp
+03-25 17:58:44.362 D/LogCollectorAsyncTask( 2757): Start uploadAllLogFile
+03-25 17:58:44.364 D/LogCollectorAsyncTask( 2757): Size of log which need to be uploaded is 0
+03-25 17:58:44.408 I/lsof    ( 2937): type=1400 audit(0.0:526): avc: denied { getattr } for path="/proc/1" dev="proc" ino=11730 scontext=u:r:system_app:s0 tcontext=u:r:init:s0 tclass=dir permissive=1
+03-25 17:58:44.408 I/lsof    ( 2937): type=1400 audit(0.0:527): avc: denied { search } for name="1" dev="proc" ino=11730 scontext=u:r:system_app:s0 tcontext=u:r:init:s0 tclass=dir permissive=1
+03-25 17:58:44.408 I/lsof    ( 2937): type=1400 audit(0.0:528): avc: denied { read } for name="cmdline" dev="proc" ino=16173 scontext=u:r:system_app:s0 tcontext=u:r:init:s0 tclass=file permissive=1
+03-25 17:58:44.408 I/lsof    ( 2937): type=1400 audit(0.0:529): avc: denied { open } for path="/proc/1/cmdline" dev="proc" ino=16173 scontext=u:r:system_app:s0 tcontext=u:r:init:s0 tclass=file permissive=1
+03-25 17:58:44.408 I/lsof    ( 2937): type=1400 audit(0.0:530): avc: denied { read } for name="exe" dev="proc" ino=22524 scontext=u:r:system_app:s0 tcontext=u:r:init:s0 tclass=lnk_file permissive=1
+03-25 17:58:44.408 I/lsof    ( 2937): type=1400 audit(0.0:531): avc: denied { getattr } for path="/proc/1/maps" dev="proc" ino=22526 scontext=u:r:system_app:s0 tcontext=u:r:init:s0 tclass=file permissive=1
+03-25 17:58:44.408 I/lsof    ( 2937): type=1400 audit(0.0:532): avc: denied { getattr } for path="/proc/2" dev="proc" ino=15904 scontext=u:r:system_app:s0 tcontext=u:r:kernel:s0 tclass=dir permissive=1
+03-25 17:58:44.408 I/lsof    ( 2937): type=1400 audit(0.0:533): avc: denied { search } for name="2" dev="proc" ino=15904 scontext=u:r:system_app:s0 tcontext=u:r:kernel:s0 tclass=dir permissive=1
+03-25 17:58:44.408 I/lsof    ( 2937): type=1400 audit(0.0:534): avc: denied { read } for name="exe" dev="proc" ino=22527 scontext=u:r:system_app:s0 tcontext=u:r:kernel:s0 tclass=lnk_file permissive=1
+03-25 17:58:44.438 I/lsof    ( 2937): type=1400 audit(0.0:535): avc: denied { getattr } for path="/proc/308" dev="proc" ino=12328 scontext=u:r:system_app:s0 tcontext=u:r:ueventd:s0 tclass=dir permissive=1
+03-25 17:58:44.438 I/lsof    ( 2937): type=1400 audit(0.0:536): avc: denied { getattr } for path="/proc/336" dev="proc" ino=12401 scontext=u:r:system_app:s0 tcontext=u:r:logd:s0 tclass=dir permissive=1
+03-25 17:58:44.438 I/lsof    ( 2937): type=1400 audit(0.0:537): avc: denied { search } for name="336" dev="proc" ino=12401 scontext=u:r:system_app:s0 tcontext=u:r:logd:s0 tclass=dir permissive=1
+03-25 17:58:44.438 I/lsof    ( 2937): type=1400 audit(0.0:538): avc: denied { read } for name="cmdline" dev="proc" ino=13624 scontext=u:r:system_app:s0 tcontext=u:r:logd:s0 tclass=file permissive=1
+03-25 17:58:44.438 I/lsof    ( 2937): type=1400 audit(0.0:539): avc: denied { open } for path="/proc/336/cmdline" dev="proc" ino=13624 scontext=u:r:system_app:s0 tcontext=u:r:logd:s0 tclass=file permissive=1
+03-25 17:58:44.438 I/lsof    ( 2937): type=1400 audit(0.0:540): avc: denied { read } for name="exe" dev="proc" ino=28985 scontext=u:r:system_app:s0 tcontext=u:r:logd:s0 tclass=lnk_file permissive=1
+03-25 17:58:44.438 I/lsof    ( 2937): type=1400 audit(0.0:541): avc: denied { getattr } for path="/proc/336/maps" dev="proc" ino=28987 scontext=u:r:system_app:s0 tcontext=u:r:logd:s0 tclass=file permissive=1
+03-25 17:58:44.438 I/lsof    ( 2937): type=1400 audit(0.0:542): avc: denied { getattr } for path="/proc/342" dev="proc" ino=12418 scontext=u:r:system_app:s0 tcontext=u:r:vold:s0 tclass=dir permissive=1
+03-25 17:58:44.438 I/lsof    ( 2937): type=1400 audit(0.0:543): avc: denied { search } for name="342" dev="proc" ino=12418 scontext=u:r:system_app:s0 tcontext=u:r:vold:s0 tclass=dir permissive=1
+03-25 17:58:44.438 I/lsof    ( 2937): type=1400 audit(0.0:544): avc: denied { read } for name="cmdline" dev="proc" ino=11746 scontext=u:r:system_app:s0 tcontext=u:r:vold:s0 tclass=file permissive=1
+03-25 17:58:44.438 I/lsof    ( 2937): type=1400 audit(0.0:545): avc: denied { open } for path="/proc/342/cmdline" dev="proc" ino=11746 scontext=u:r:system_app:s0 tcontext=u:r:vold:s0 tclass=file permissive=1
+03-25 17:58:44.500 D/a       ( 2757): Call CommandHelper to Upload File: /storage/emulated/0/Android/data/swpc.wistron.com.wiwall.tv/files/logs/0325_175757.txt
+03-25 17:58:44.500 D/c       ( 2757): uploadLogcat, file: /storage/emulated/0/Android/data/swpc.wistron.com.wiwall.tv/files/logs/0325_175757.txt
+03-25 17:58:44.517 D/c       ( 2757): Post API: /device/iot/s3Signature
+03-25 17:58:44.517 D/c       ( 2757): JSON: {"mac_address":"1C:C0:E1:40:B5:98","file_name":"0325_175757.txt","method":"PUT","folder_type":"P","file_type":"text\/plain","file_size":567535,"request_type":"S","part_number":"","upload_id":"","md5":"F2B\/2E7mNjbBPZSSlZCkAw=="}
+03-25 17:58:44.540 D/HttpRequest( 2757): url : https://apiops.wicanvas.net/device/iot/s3Signature
+03-25 17:58:44.540 D/HttpRequest( 2757): value : {"mac_address":"1C:C0:E1:40:B5:98","file_name":"0325_175757.txt","method":"PUT","folder_type":"P","file_type":"text\/plain","file_size":567535,"request_type":"S","part_number":"","upload_id":"","md5":"F2B\/2E7mNjbBPZSSlZCkAw=="}
+03-25 17:58:44.648 D/a       ( 2757): File is Opened: /storage/emulated/0/Android/data/swpc.wistron.com.wiwall.tv/files/logs/0325_175840.txt
+03-25 17:58:44.653 E/MainService( 2757): getsourceIP:{"sourceIp":"211.21.159.187"}
+03-25 17:58:44.653 I/g       ( 2757): status =14Message: caller =MainService
+03-25 17:58:44.653 I/g       ( 2757): Configuring system
+03-25 17:58:44.657 I/a       ( 2757): start check license alarm
+03-25 17:58:44.669 I/swpc.wistron.com.wiwall.tv.db.a( 2757): no reboot schedule
+03-25 17:58:44.669 I/c       ( 2757): tv don't have reboot schedule
+03-25 17:58:44.690 D/HttpRequest( 2757): url : https://apiops.wicanvas.net/device/iot/registerFromMachine
+03-25 17:58:44.690 D/HttpRequest( 2757): value : {"wifi_info":"D20F-1H0D-EMO","brightness_factory":196,"mac_address":"1C:C0:E1:40:B5:98","resolution_w":1920,"resolution_h":1080,"time_zone":"Asia\/Taipei"}
+03-25 17:58:44.777 D/h       ( 2757): setAutoTimeOff
+03-25 17:58:44.804 D/h       ( 2757): auto_time=0
+03-25 17:58:44.806 D/h       ( 2757): auto_time_zone=0
+03-25 17:58:44.847 D/MainService( 2757): set NTP server time:Mon Mar 25 17:58:44 GMT+08:00 2019
+03-25 17:58:44.849 D/AlarmManagerService( 1042): Setting time of day to sec=1553507924
+03-25 17:58:44.848 W/AlarmManagerService( 1042): Unable to set rtc to 1553507924: Invalid argument
+03-25 17:58:44.851 I/MainService( 2757): SetTimeFromNTP complete
+03-25 17:58:44.919 D/MainService( 2757): syncMachineLatestVersion processFinish
+03-25 17:58:45.037 I/g       ( 2757): status =14Message: caller =MainService
+03-25 17:58:45.037 I/g       ( 2757): Configuring system
+03-25 17:58:45.071 D/MqttController( 2757): Cert/key was not found in keystore - creating new key and certificate.
+03-25 17:58:45.074 I/g       ( 2757): status =14Message: caller =MainService
+03-25 17:58:45.074 I/g       ( 2757): Configuring system
+03-25 17:58:45.075 D/p       ( 2757): startSyncInfo
+03-25 17:58:45.102 D/c       ( 2757): Get S3 Url Succeed, Ready to Upload Logcat
+03-25 17:58:45.102 D/c       ( 2757): result: {"sign":{"Authorization":"AWS AKIAILP7PHWMY4QUWIWA:OFC1kCfpr6AB/HDJvEoGOZJs5Dw=","Signature":"OFC1kCfpr6AB/HDJvEoGOZJs5Dw=","ContentType":"text/plain","XAmzDate":"Mon, 25 Mar 2019 09:58:45 GMT"},"s3key":"machine-app-logs/9/14/dfdd45117eb559108a8acd9d816ff02d.txt","s3url":"https://s3.ap-northeast-1.amazonaws.com/wiwall-ops-upload/machine-app-logs/9/14/dfdd45117eb559108a8acd9d816ff02d.txt"}
+03-25 17:58:45.109 D/f       ( 2757): LogcatUploadAsyncTask Create
+03-25 17:58:45.113 D/e       ( 2757): onCreate()
+03-25 17:58:45.115 I/g       ( 2757): status =11Message: caller:e
+03-25 17:58:45.116 I/g       ( 2757): Time synchronizing
+03-25 17:58:45.120 D/e       ( 2757): onCreateView()
+03-25 17:58:45.156 D/e       ( 2757): onStart()
+03-25 17:58:45.163 D/e       ( 2757): onSurfaceTextureAvailable()
+03-25 17:58:45.164 D/e       ( 2757): init()
+03-25 17:58:45.166 E/ExtMediaPlayer-JNI( 2757): env->IsInstanceOf fails
+03-25 17:58:45.166 E/MediaPlayer-JNI( 2757): JNIMediaPlayerFactory: bIsQCMediaPlayerPresent 0
+03-25 17:58:45.166 E/ExtMediaPlayer-JNI( 2757): env->IsInstanceOf fails
+03-25 17:58:45.166 E/MediaPlayer-JNI( 2757): JNIMediaPlayerFactory: bIsQCMediaPlayerPresent 0
+03-25 17:58:45.175 D/e       ( 2757): demand_textureView onSurfaceTextureAvailable()
+03-25 17:58:45.175 D/e       ( 2757): init_demand()
+03-25 17:58:45.177 E/ExtMediaPlayer-JNI( 2757): env->IsInstanceOf fails
+03-25 17:58:45.177 E/MediaPlayer-JNI( 2757): JNIMediaPlayerFactory: bIsQCMediaPlayerPresent 0
+03-25 17:58:45.177 E/ExtMediaPlayer-JNI( 2757): env->IsInstanceOf fails
+03-25 17:58:45.177 E/MediaPlayer-JNI( 2757): JNIMediaPlayerFactory: bIsQCMediaPlayerPresent 0
+03-25 17:58:45.190 D/MainService( 2757): KeyStore Successful
+03-25 17:58:45.212 D/d       ( 2757): -----offset Time:------- 13
+03-25 17:58:45.213 D/MqttController( 2757): Certificate wistron found in keystore - using for MQTT.
+03-25 17:58:45.322 I/g       ( 2757): status =8Message: caller: setStopStatus()
+03-25 17:58:45.322 I/g       ( 2757): Preparing content
+03-25 17:58:45.322 I/e       ( 2757): mGetTimeFromNetwork complete
+03-25 17:58:45.336 D/IotServiceHandler( 2757): MSG_WHAT_MQTT_CONNECT
+03-25 17:58:45.525 I/AWSIotMqttManager( 2757): resetting reconnect attempt and retry time
+03-25 17:58:45.525 D/IotService( 2757): statusCallback = Connecting
+03-25 17:58:45.541 D/IotServiceHandler( 2757): MSG_WHAT_MQTT_STATUS_CHANGE
+03-25 17:58:45.541 I/IotService( 2757): onStatusChanged , mqtt status = Connecting
+03-25 17:58:45.665 I/UploadFileTask( 2757): log file upload: 100.0%
+03-25 17:58:45.890 I/MSM-irqbalance(  581): Decided to move IRQ48 from CPU3 to CPU1
+03-25 17:58:45.970 I/AWSIotMqttManager( 2757): onSuccess: mqtt connection is successful.
+03-25 17:58:45.970 D/IotService( 2757): statusCallback = Connected
+03-25 17:58:45.971 D/IotServiceHandler( 2757): MSG_WHAT_MQTT_STATUS_CHANGE
+03-25 17:58:45.971 I/IotService( 2757): onStatusChanged , mqtt status = Connected
+03-25 17:58:45.980 W/ContextImpl( 2757): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1221 android.content.ContextWrapper.startService:581 swpc.wistron.com.wiwall.tv.MainService.a:780 swpc.wistron.com.wiwall.tv.receiver.a.onReceive:23 android.support.v4.content.LocalBroadcastManager.executePendingBroadcasts:297 
+03-25 17:58:46.008 W/ContextImpl( 2757): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1221 android.content.ContextWrapper.startService:581 swpc.wistron.com.wiwall.tv.MainService.a:780 swpc.wistron.com.wiwall.tv.receiver.a.onReceive:23 android.support.v4.content.LocalBroadcastManager.executePendingBroadcasts:297 
+03-25 17:58:46.009 D/HttpRequest( 2757): url : https://apiops.wicanvas.net/device/iot/syncMachineStatus
+03-25 17:58:46.009 D/HttpRequest( 2757): value : {"mac_address":"1C:C0:E1:40:B5:98"}
+03-25 17:58:46.016 I/a       ( 2757): multi call post api (or use postIotMultipleAPI) APIName:/device/iot/syncMachineStatus
+03-25 17:58:46.023 D/AlarmService( 2757): INTENT_IOTSERVICE_IS_READY
+03-25 17:58:46.043 D/HttpRequest( 2757): url : https://apiops.wicanvas.net/device/iot/getScheduleData
+03-25 17:58:46.043 D/HttpRequest( 2757): value : {"mac_address":"1C:C0:E1:40:B5:98","start_date":"2019-03-25","end_date":"2019-03-27"}
+03-25 17:58:46.047 D/AlarmService( 2757): INTENT_IOTSERVICE_IS_READY
+03-25 17:58:46.058 I/a       ( 2757): multi call post api (or use postIotMultipleAPI) APIName:/device/iot/getScheduleData
+03-25 17:58:46.339 E/MainService( 2757): {"brightness":196,"brightness_update_time":null,"volume":0,"play_status":true,"reboot_time":[],"eco_data":{"eco_time":[],"eco_brightness":0},"ntp_url":"","background_data":{"media_h_url":"","media_h_update_time":"","media_v_url":"","media_v_update_time":"","media_s_url":"","media_s_update_time":""},"demand_status":false}
+03-25 17:58:46.341 E/MainService( 2757): server not support set brightness_update_time
+03-25 17:58:46.356 I/c       ( 2757): stop reboot schedule
+03-25 17:58:46.378 I/swpc.wistron.com.wiwall.tv.db.a( 2757): no reboot schedule
+03-25 17:58:46.378 I/c       ( 2757): tv don't have reboot schedule
+03-25 17:58:46.385 I/a       ( 2757): stop brightness schedule
+03-25 17:58:46.399 I/a       ( 2757): no brightness schedule
+03-25 17:58:46.402 I/a       ( 2757): no brightness schedule
+03-25 17:58:46.402 I/a       ( 2757): tv don't have Brightness Schedule
+03-25 17:58:46.408 I/d       ( 2757): no file(s) download
+03-25 17:58:46.408 I/b       ( 2757): download all done
+03-25 17:58:46.411 D/MainService( 2757): play_status:true
+03-25 17:58:46.411 D/MainService( 2757): demand_status:false
+03-25 17:58:46.434 I/a       ( 2757): onSensorChanged, X = -0.20362854, Y = -9.460968
+03-25 17:58:46.434 I/a       ( 2757): mSensorStatus = 3
+03-25 17:58:46.436 I/o       ( 2757): onStatusChecked
+03-25 17:58:46.438 E/b       ( 2757): type=1
+03-25 17:58:46.438 E/b       ( 2757): set default image
+03-25 17:58:46.594 D/AlarmService( 2757): /device/iot/getScheduleData processFinish!
+03-25 17:58:46.615 D/f       ( 2757): onUploaded
+03-25 17:58:46.621 D/f       ( 2757): Post API: /device/iot/addMachineAppLog
+03-25 17:58:46.621 D/f       ( 2757): JSON: {"mac_address":"1C:C0:E1:40:B5:98","file_key":"machine-app-logs\/9\/14\/dfdd45117eb559108a8acd9d816ff02d.txt","file_size":567535}
+03-25 17:58:46.624 D/HttpRequest( 2757): url : https://apiops.wicanvas.net/device/iot/addMachineAppLog
+03-25 17:58:46.624 D/HttpRequest( 2757): value : {"mac_address":"1C:C0:E1:40:B5:98","file_key":"machine-app-logs\/9\/14\/dfdd45117eb559108a8acd9d816ff02d.txt","file_size":567535}
+03-25 17:58:46.658 D/d       ( 2757): -----offset Time:------- 20
+03-25 17:58:46.747 I/ActivityManager( 1042): Killing 2467:org.videolan.vlc/u0a73 (adj 15): empty #17
+03-25 17:58:47.186 D/f       ( 2757): processFinish result: {"count":1}
+03-25 17:58:47.306 D/wpa_supplicant( 1600): wlan0: Control interface command 'SIGNAL_POLL'
+03-25 17:58:47.318 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=49
+03-25 17:58:47.801 I/AWSIotMqttManager( 2757): message arrived on topic: /WIWALL/ops/3f3da8750cefaecc553ee7aad7f4bd4615bd93544df8f8e0f4a07c97a5a54001/scheduleUUID
+03-25 17:58:47.803 D/a       ( 2757): mqtt message = {"schedule_uuid":"94f11b90-4ee4-11e9-9c8e-b336f4d838cb","iot_id":"b869afb8-22f1-4a6e-9375-e3c84ab2c459"}
+03-25 17:58:47.839 I/a       ( 2757): send Iot ack IotId:b869afb8-22f1-4a6e-9375-e3c84ab2c459
+03-25 17:58:47.844 I/a       ( 2757): {"schedule_uuid":"94f11b90-4ee4-11e9-9c8e-b336f4d838cb","iot_id":"b869afb8-22f1-4a6e-9375-e3c84ab2c459"}
+03-25 17:58:47.845 D/HttpRequest( 2757): url : https://apiops.wicanvas.net/device/iot/receiveIoTAck
+03-25 17:58:47.846 D/HttpRequest( 2757): value : {"mac_address":"1C:C0:E1:40:B5:98","iot_id":"b869afb8-22f1-4a6e-9375-e3c84ab2c459"}
+03-25 17:58:47.850 D/HttpRequest( 2757): url : https://apiops.wicanvas.net/device/iot/getScheduleByUuid
+03-25 17:58:47.850 D/HttpRequest( 2757): value : {"schedule_uuid":"94f11b90-4ee4-11e9-9c8e-b336f4d838cb"}
+03-25 17:58:47.987 E/a       ( 2757): scheduleData = 
+03-25 17:58:47.987 E/a       ( 2757): {"ext":{"schedule_start_date":"2019-03-25","schedule_end_date":"2019-03-27","time_zone":"Asia/Taipei"},"scheduleData":[{"schedule_id":1,"schedule_uuid":"ccf404c9-c3e6-42f7-966d-868be9be0be4","start_time":1553501948000,"end_time":1553527148000,"schedule_update_time":"2019-03-25T09:56:30.993Z","ext":{"p_data":[{"program_id":"2320_1","duration":10000}]}},{"schedule_id":2,"schedule_uuid":"ccf404c9-c3e6-42f7-966d-868be9be0be4","start_time":1553588348000,"end_time":1553613548000,"schedule_update_time"
+03-25 17:58:47.987 E/a       ( 2757): :"2019-03-25T09:56:30.993Z","ext":{"p_data":[{"program_id":"2320_1","duration":10000}]}},{"schedule_id":3,"schedule_uuid":"ccf404c9-c3e6-42f7-966d-868be9be0be4","start_time":1553674748000,"end_time":1553699948000,"schedule_update_time":"2019-03-25T09:56:30.993Z","ext":{"p_data":[{"program_id":"2320_1","duration":10000}]}}],"programDetail":{"2320_1":{"id":"2320_1","layoutId":1000,"width":1920,"height":1080,"duration":10000,"sections":[{"sectionId":"100","x":0,"y":0,"width":1920,"height":1080,"has
+03-25 17:58:47.987 E/a       ( 2757): Volume":false,"imgOptions":{"mode":"contain"},"timeline":[{"media_id":"1471","duration":10000}]}],"text":[],"marquee":[],"audio":[]}},"playlistDetail":{},"mediaDetail":{"1471":{"media_type":1,"media_key":"https://wiwall-ops-upload.s3.ap-northeast-1.amazonaws.com/media-info/9/14/e1044458600b19bce29a1822c18cc970.jpg?AWSAccessKeyId=ASIAVI4Z2AU6NJHMLHH5&Expires=1553767126&Signature=5hTulerbGQ1pCSmpDovz86Y86Gg%3D&x-amz-security-token=FQoGZXIvYXdzEDsaDGENi0Yf1i0x3LlHEyL4Ab%2FqmRgKbM3B%2F0v51wNNMfSVtU2
+03-25 17:58:47.988 E/a       ( 2757): cu7p1IQta0zs26PpkcUpRYSK7zHsZH%2FLsGL%2FUbSb1PJ5S7nN9siRFnAxc%2FIahmKZ8RI1Upz%2BrBHx8t7nZmbxLwIOP7mqLB2mee17lzTGKeap%2FvXd01zhyG7CCwTZWN%2BfzlXof0hxn2JL8OjgAYLn9b0sKI3%2Fgk9Urne%2BkE9vrI0UnYj3MI6%2B5Q7Jq%2FHlwaBQJcozJn0eKWOoePXVF020XdHDCIIYpWzVRj2%2Bh3ptuA19L1JRsIBmD5qmtzTq%2FDWJ6oEZopxuZR8c49IO2j0gaZFnzQvWziwRqK3gbYu1VJh2moLw5KNa%2B4uQF","media_size":740892,"update_date":1553498676285,"ext":{"programs":["2320_1"]}}}}
+03-25 17:58:48.010 I/a       ( 2757): Iot ack finish
+03-25 17:58:48.056 I/a       ( 2757): serverSchedule UUID = ccf404c9-c3e6-42f7-966d-868be9be0be4
+03-25 17:58:48.057 I/a       ( 2757): serverSchedule getStartTime = 1553501948000
+03-25 17:58:48.057 I/a       ( 2757): serverSchedule getEndTime = 1553527148000
+03-25 17:58:48.057 I/a       ( 2757): serverSchedule updateTime = 2019-03-25T09:56:30.993Z
+03-25 17:58:48.057 I/a       ( 2757): deviceSchedule UUID = ccf404c9-c3e6-42f7-966d-868be9be0be4
+03-25 17:58:48.058 I/a       ( 2757): deviceSchedule getStartTime = Mon Mar 25 16:19:08 GMT+08:00 2019
+03-25 17:58:48.058 I/a       ( 2757): deviceSchedule getEndTime = Mon Mar 25 23:19:08 GMT+08:00 2019
+03-25 17:58:48.058 I/a       ( 2757): deviceSchedule updateTime = 2019-03-25T09:56:30.993Z
+03-25 17:58:48.195 D/a       ( 2757): updateAlarm()
+03-25 17:58:48.198 I/a       ( 2757): preSendAlarm:currentPlaySchedule:1
+03-25 17:58:48.198 I/a       ( 2757): preSendAlarm:sclist(0).getStartTime:Mon Mar 25 16:19:08 GMT+08:00 2019
+03-25 17:58:48.198 I/a       ( 2757): preSendAlarm:sclist(0).getEndTime:Mon Mar 25 23:19:08 GMT+08:00 2019
+03-25 17:58:48.198 I/a       ( 2757): preSendAlarm:scheduleId:1
+03-25 17:58:48.199 W/ContextImpl( 2757): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1221 android.content.ContextWrapper.startService:581 swpc.wistron.com.wiwall.tv.iot.a.a:742 swpc.wistron.com.wiwall.tv.iot.a.b:748 swpc.wistron.com.wiwall.tv.iot.a.a:110 
+03-25 17:58:48.202 I/a       ( 2757): fix_currentPlaySchedule1
+03-25 17:58:48.203 D/AlarmManagerService( 1042): Kernel timezone updated to -480 minutes west of GMT
+03-25 17:58:48.203 W/ContextImpl( 2757): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1221 android.content.ContextWrapper.startService:581 swpc.wistron.com.wiwall.tv.iot.a.b:762 swpc.wistron.com.wiwall.tv.iot.a.a:110 swpc.wistron.com.wiwall.tv.iot.a$a.onPostExecute:587 
+03-25 17:58:48.207 I/AlarmService( 2757): receive alarm INTENT_ALARM_ALARMED_ARRIVED
+03-25 17:58:48.207 I/AlarmService( 2757): currentScheduleId= 1
+03-25 17:58:48.207 I/AlarmService( 2757): scheduleId= 1
+03-25 17:58:48.207 I/AlarmService( 2757): VideoFragment= false
+03-25 17:58:48.207 D/AlarmService( 2757): INTENT_TIMETABLE_IS_UPDATED
+03-25 17:58:48.217 D/e       ( 2757): initSchedule()1
+03-25 17:58:48.221 I/e       ( 2757): imageView VISIBLE
+03-25 17:58:48.221 I/e       ( 2757): textureView GONE
+03-25 17:58:48.221 D/e       ( 2757): removeContentThread()
+03-25 17:58:48.221 D/e       ( 2757): removeScheduleThread()
+03-25 17:58:48.221 D/e       ( 2757): checkFile()
+03-25 17:58:48.231 I/g       ( 2757): status =8Message: caller:e checkFile()
+03-25 17:58:48.231 I/g       ( 2757): Preparing content
+03-25 17:58:48.231 I/g       ( 2757): TextHidden =false
+03-25 17:58:48.238 D/e       ( 2757): download completeAll()
+03-25 17:58:48.238 D/e       ( 2757): insertPlaylistInfo()
+03-25 17:58:48.238 D/swpc.wistron.com.wiwall.tv.db.a( 2757): getContinuousScheduleID()
+03-25 17:58:48.245 E/swpc.wistron.com.wiwall.tv.db.a( 2757): start Mon Mar 25 16:19:08 GMT+08:00 2019
+03-25 17:58:48.245 E/swpc.wistron.com.wiwall.tv.db.a( 2757): end Mon Mar 25 23:19:08 GMT+08:00 2019
+03-25 17:58:48.245 D/e       ( 2757): +10s
+03-25 17:58:48.245 D/e       ( 2757): calculatePlaylistTime()
+03-25 17:58:48.245 D/e       ( 2757): ---currentScheduleStartTime:1553507928000 playlistIndex:0
+03-25 17:58:48.246 D/e       ( 2757): scheduleTime:1553507928000 playIndex:0
+03-25 17:58:48.246 D/e       ( 2757): insertContentInfo()
+03-25 17:58:48.246 D/e       ( 2757): playProgram()
+03-25 17:58:48.285 I/InputReader( 1042): Reconfiguring input devices.  changes=0x00000004
+03-25 17:58:48.285 D/ProgramControllerImpl( 2757): setData()
+03-25 17:58:48.286 D/ProgramControllerImpl( 2757): initPlayer()
+03-25 17:58:48.286 D/ProgramControllerImpl( 2757): set schedule: 1, repeat: 0
+03-25 17:58:48.286 D/ProgramControllerImpl( 2757): getProgramJSON, scheduleId =1
+03-25 17:58:48.288 D/ProgramControllerImpl( 2757): program JSON has value, add a compositePlayer.
+03-25 17:58:48.288 D/ProgramControllerImpl( 2757): clearAllDBContent()
+03-25 17:58:48.288 D/ProgramControllerImpl( 2757): saveAllDBContent()
+03-25 17:58:48.298 I/WindowManager( 1042): Screen frozen for +50ms due to Window{2e2f03c u0 Starting swpc.wistron.com.wiwall.tv}
+03-25 17:58:48.301 D/ProgramControllerImpl( 2757): mContentInfos is empty
+03-25 17:58:48.302 D/ProgramControllerImpl( 2757): get content from DB.
+03-25 17:58:48.320 D/DrawFrameCallback( 2757): register choreographer callback.
+03-25 17:58:48.321 I/g       ( 2757): TextHidden =true
+03-25 17:58:48.322 D/CompositePlayer( 2757): [7028329] set data.
+03-25 17:58:48.315 I/top     ( 2948): type=1400 audit(0.0:966): avc: denied { search } for name="336" dev="proc" ino=12401 scontext=u:r:system_app:s0 tcontext=u:r:logd:s0 tclass=dir permissive=1
+03-25 17:58:48.315 I/top     ( 2948): type=1400 audit(0.0:967): avc: denied { read } for name="stat" dev="proc" ino=17718 scontext=u:r:system_app:s0 tcontext=u:r:logd:s0 tclass=file permissive=1
+03-25 17:58:48.315 I/top     ( 2948): type=1400 audit(0.0:968): avc: denied { open } for path="/proc/336/stat" dev="proc" ino=17718 scontext=u:r:system_app:s0 tcontext=u:r:logd:s0 tclass=file permissive=1
+03-25 17:58:48.315 I/top     ( 2948): type=1400 audit(0.0:969): avc: denied { getattr } for path="/proc/336/stat" dev="proc" ino=17718 scontext=u:r:system_app:s0 tcontext=u:r:logd:s0 tclass=file permissive=1
+03-25 17:58:48.315 I/top     ( 2948): type=1400 audit(0.0:970): avc: denied { read } for name="task" dev="proc" ino=12402 scontext=u:r:system_app:s0 tcontext=u:r:logd:s0 tclass=dir permissive=1
+03-25 17:58:48.315 I/top     ( 2948): type=1400 audit(0.0:971): avc: denied { open } for path="/proc/336/task" dev="proc" ino=12402 scontext=u:r:system_app:s0 tcontext=u:r:logd:s0 tclass=dir permissive=1
+03-25 17:58:48.325 I/top     ( 2948): type=1400 audit(0.0:972): avc: denied { search } for name="517" dev="proc" ino=1237 scontext=u:r:system_app:s0 tcontext=u:r:cnd:s0 tclass=dir permissive=1
+03-25 17:58:48.325 I/top     ( 2948): type=1400 audit(0.0:973): avc: denied { read } for name="stat" dev="proc" ino=17754 scontext=u:r:system_app:s0 tcontext=u:r:cnd:s0 tclass=file permissive=1
+03-25 17:58:48.325 I/top     ( 2948): type=1400 audit(0.0:974): avc: denied { open } for path="/proc/517/stat" dev="proc" ino=17754 scontext=u:r:system_app:s0 tcontext=u:r:cnd:s0 tclass=file permissive=1
+03-25 17:58:48.325 I/top     ( 2948): type=1400 audit(0.0:975): avc: denied { getattr } for path="/proc/517/stat" dev="proc" ino=17754 scontext=u:r:system_app:s0 tcontext=u:r:cnd:s0 tclass=file permissive=1
+03-25 17:58:48.325 I/top     ( 2948): type=1400 audit(0.0:976): avc: denied { read } for name="task" dev="proc" ino=1238 scontext=u:r:system_app:s0 tcontext=u:r:cnd:s0 tclass=dir permissive=1
+03-25 17:58:48.325 I/top     ( 2948): type=1400 audit(0.0:977): avc: denied { open } for path="/proc/517/task" dev="proc" ino=1238 scontext=u:r:system_app:s0 tcontext=u:r:cnd:s0 tclass=dir permissive=1
+03-25 17:58:48.325 I/top     ( 2948): type=1400 audit(0.0:978): avc: denied { search } for name="521" dev="proc" ino=11877 scontext=u:r:system_app:s0 tcontext=u:r:wcnss_service:s0 tclass=dir permissive=1
+03-25 17:58:48.325 I/top     ( 2948): type=1400 audit(0.0:979): avc: denied { read } for name="stat" dev="proc" ino=17755 scontext=u:r:system_app:s0 tcontext=u:r:wcnss_service:s0 tclass=file permissive=1
+03-25 17:58:48.325 I/top     ( 2948): type=1400 audit(0.0:980): avc: denied { open } for path="/proc/521/stat" dev="proc" ino=17755 scontext=u:r:system_app:s0 tcontext=u:r:wcnss_service:s0 tclass=file permissive=1
+03-25 17:58:48.325 I/top     ( 2948): type=1400 audit(0.0:981): avc: denied { getattr } for path="/proc/521/stat" dev="proc" ino=17755 scontext=u:r:system_app:s0 tcontext=u:r:wcnss_service:s0 tclass=file permissive=1
+03-25 17:58:48.325 I/top     ( 2948): type=1400 audit(0.0:982): avc: denied { read } for name="task" dev="proc" ino=31908 scontext=u:r:system_app:s0 tcontext=u:r:wcnss_service:s0 tclass=dir permissive=1
+03-25 17:58:48.325 I/top     ( 2948): type=1400 audit(0.0:983): avc: denied { open } for path="/proc/521/task" dev="proc" ino=31908 scontext=u:r:system_app:s0 tcontext=u:r:wcnss_service:s0 tclass=dir permissive=1
+03-25 17:58:48.348 D/CompositePlayer( 2757): [7028329] play
+03-25 17:58:48.348 D/ProgramControllerImpl( 2757): get content from self content list.
+03-25 17:58:48.351 D/ProgramControllerImpl( 2757): Program is video:false
+03-25 17:58:48.356 I/System.out( 2757): User 8%, System 7%, IOW 0%, IRQ 2%
+03-25 17:58:48.356 E/Sensors (  578): sns_debug_main.c(420):Debug Timer Callback called
+03-25 17:58:48.359 D/BluetoothUtils( 2059): callingUid =1000
+03-25 17:58:48.359 E/BluetoothUtils( 2059): foregroundUser =0
+03-25 17:58:48.359 E/BluetoothUtils( 2059): callingUser =0
+03-25 17:58:48.360 I/A2dpStateMachine( 2059): mConnectedDevicesList size is 0
+03-25 17:58:48.369 D/ImagePlayer( 2757): [99637285][Player 0] load image.
+03-25 17:58:48.440 D/HttpRequest( 2757): url : https://apiops.wicanvas.net/device/iot/syncMachineInfo
+03-25 17:58:48.440 D/HttpRequest( 2757): value : {"mac_address":"1C:C0:E1:40:B5:98","cpu":"17%","total_memory_size":"3.53 GB","memory_in_used":"722.88 MB","total_internal_storage":"8.24 GB","internal_storage_used":"1.17 GB","total_external_storage":"[]","external_storage_used":"[]","peripheral_list":"[]","app_version":"012-T-OPS","os_version":"6.0.1","device_agent_version":"msm8994-userdebug 6.0.1 WiWall-0.0.0.10-1520 46 test-keys","temperature":"46 °C","t_con":"0","backlight":"On","ntp_server_ip":"[tock.stdtime.gov.tw, time1.google.com, 0.tw.pool.ntp.org]","ntp_reachability":"[No Data, No Data, No Data]","ntp_average_rms_offset":"[No Data, No Data, No Data]","ntp_last_sync_time":"[No Data, No Data, No Data]","machine_ip":"192.168.1.40","g_sensor_data":"X=-0.20362854, Y=-9.460968, Z=2.5108032","brightness":196,"volume":0,"resolution_w":1920,"resolution_h":1080,"angle":-1,"bt_speaker_connect":false,"bt_speaker_name":"null"}
+03-25 17:58:48.452 D/d       ( 2757): -----offset Time:------- 18
+03-25 17:58:48.457 D/ImagePlayer( 2757): [99637285][Player 0] draw image
+03-25 17:58:48.468 D/CompositePlayer( 2757): [7028329], ImagePlayer prepared number: 1, total section number: 1
+03-25 17:58:48.469 D/CompositePlayer( 2757): [7028329] play sync player
+03-25 17:58:48.469 D/ImagePlayer( 2757): [99637285][Player 0] play image.
+03-25 17:58:48.693 D/p       ( 2757): /device/iot/syncMachineInfo processFinish!
+03-25 17:58:50.308 I/art     ( 1042): Starting a blocking GC Explicit
+03-25 17:58:50.338 D/wpa_supplicant( 1600): wlan0: Control interface command 'SIGNAL_POLL'
+03-25 17:58:50.342 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=49
+03-25 17:58:50.412 I/art     ( 1042): Explicit concurrent mark sweep GC freed 7037(986KB) AllocSpace objects, 8(544KB) LOS objects, 33% free, 9MB/13MB, paused 816us total 103.090ms
+03-25 17:58:50.891 I/MSM-irqbalance(  581): Decided to move IRQ216 from CPU3 to CPU1
+03-25 17:58:51.485 I/AWSIotMqttManager( 2757): message arrived on topic: /WIWALL/ops/3f3da8750cefaecc553ee7aad7f4bd4615bd93544df8f8e0f4a07c97a5a54001/checkMachineIoTStatus
+03-25 17:58:51.486 D/a       ( 2757): mqtt message = {"iot_cert_id":"3f3da8750cefaecc553ee7aad7f4bd4615bd93544df8f8e0f4a07c97a5a54001","checkTime":"2019-03-25T09:58:40.672Z","iot_id":"7bafc6cb-ee5c-4103-aff9-92333323b583"}
+03-25 17:58:51.507 I/a       ( 2757): send Iot ack IotId:7bafc6cb-ee5c-4103-aff9-92333323b583
+03-25 17:58:51.511 D/a       ( 2757): handleCheckIOTStatus, normalMessage: {"iot_cert_id":"3f3da8750cefaecc553ee7aad7f4bd4615bd93544df8f8e0f4a07c97a5a54001","checkTime":"2019-03-25T09:58:40.672Z","iot_id":"7bafc6cb-ee5c-4103-aff9-92333323b583"}
+03-25 17:58:51.511 D/HttpRequest( 2757): url : https://apiops.wicanvas.net/device/iot/receiveIoTAck
+03-25 17:58:51.511 D/HttpRequest( 2757): value : {"mac_address":"1C:C0:E1:40:B5:98","iot_id":"7bafc6cb-ee5c-4103-aff9-92333323b583"}
+03-25 17:58:51.514 D/a       ( 2757): sendResetIoTStatusAck
+03-25 17:58:51.519 D/HttpRequest( 2757): url : https://apiops.wicanvas.net/device/iot/resetIoTStatus
+03-25 17:58:51.519 D/HttpRequest( 2757): value : {"iot_cert_id":"3f3da8750cefaecc553ee7aad7f4bd4615bd93544df8f8e0f4a07c97a5a54001"}
+03-25 17:58:51.738 W/FlurryAgent( 2557): Flurry session ended
+03-25 17:58:51.770 I/a       ( 2757): Iot ack finish
+03-25 17:58:51.896 D/a       ( 2757): /device/iot/resetIoTStatus processFinish!
+03-25 17:58:52.509 W/FlurryAgent( 2557): Analytics report sent.
+03-25 17:58:53.232 I/b       ( 2757): -----all of schedule----
+03-25 17:58:53.251 I/b       ( 2757): schedule startTime:Mon Mar 25 16:19:08 GMT+08:00 2019
+03-25 17:58:53.251 I/b       ( 2757): schedule EndTime:Mon Mar 25 23:19:08 GMT+08:00 2019
+03-25 17:58:53.253 I/b       ( 2757): schedule Id:1
+03-25 17:58:53.253 I/b       ( 2757): ---------
+03-25 17:58:53.253 I/b       ( 2757): schedule startTime:Tue Mar 26 16:19:08 GMT+08:00 2019
+03-25 17:58:53.254 I/b       ( 2757): schedule EndTime:Tue Mar 26 23:19:08 GMT+08:00 2019
+03-25 17:58:53.254 I/b       ( 2757): schedule Id:2
+03-25 17:58:53.254 I/b       ( 2757): ---------
+03-25 17:58:53.254 I/b       ( 2757): schedule startTime:Wed Mar 27 16:19:08 GMT+08:00 2019
+03-25 17:58:53.254 I/b       ( 2757): schedule EndTime:Wed Mar 27 23:19:08 GMT+08:00 2019
+03-25 17:58:53.254 I/b       ( 2757): schedule Id:3
+03-25 17:58:53.254 I/b       ( 2757): ---------
+03-25 17:58:53.260 D/TimeCycleAlarmReceiver( 2757): totalPickedAlarmedList size= 1
+03-25 17:58:53.268 D/TimeCycleAlarmReceiver( 2757): startRequestCode = 2
+03-25 17:58:53.278 D/TimeCycleAlarmReceiver( 2757): now , cancel exist alarm
+03-25 17:58:53.294 D/TimeCycleAlarmReceiver( 2757): ----The pickedAlarmedSList 0 splitter----
+03-25 17:58:53.295 D/TimeCycleAlarmReceiver( 2757): alarmed.getDate() = 2019-03-25
+03-25 17:58:53.296 D/TimeCycleAlarmReceiver( 2757): alarmed.getStartTime() = 16:19:08
+03-25 17:58:53.296 D/TimeCycleAlarmReceiver( 2757): alarmed.getEndTime() = 23:19:08
+03-25 17:58:53.296 D/TimeCycleAlarmReceiver( 2757): ---------
+03-25 17:58:53.300 D/TimeCycleAlarmReceiver( 2757): alarmed.getDate() = 2019-03-25
+03-25 17:58:53.301 D/TimeCycleAlarmReceiver( 2757): alarmed.getStartTime() = 23:19:09
+03-25 17:58:53.301 D/TimeCycleAlarmReceiver( 2757): alarmed.getEndTime() = 23:59:59
+03-25 17:58:53.301 D/TimeCycleAlarmReceiver( 2757): ---------
+03-25 17:58:53.306 D/TimeCycleAlarmReceiver( 2757): ----The pickedAlarmedSList 0 setAlarmed Finish
+03-25 17:58:53.319 D/TimeCycleAlarmReceiver( 2757): next time cycle= 2019-03-26 00:00:00
+03-25 17:58:53.354 D/wpa_supplicant( 1600): wlan0: Control interface command 'SIGNAL_POLL'
+03-25 17:58:53.357 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=49
+03-25 17:58:55.581 I/AWSIotMqttManager( 2757): message arrived on topic: /WIWALL/ops/3f3da8750cefaecc553ee7aad7f4bd4615bd93544df8f8e0f4a07c97a5a54001/machineVersionUpdate
+03-25 17:58:55.582 D/a       ( 2757): mqtt message = {"update_status":1,"machine_version_id":10,"version_number":"190218_012T_OPS","fileUrl":"https://d3ulzrmctshgo7.cloudfront.net/apk-info/694f22c7c45f0b7afa349b1857002fc0.apk?Expires=1553518725&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kM3VsenJtY3RzaGdvNy5jbG91ZGZyb250Lm5ldC9hcGstaW5mby82OTRmMjJjN2M0NWYwYjdhZmEzNDliMTg1NzAwMmZjMC5hcGsiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1NTM1MTg3MjV9fX1dfQ__&Signature=arZATPdTfObYe-q89o~VEp14-6zLLqmnnEk9d7rjuQc7LxBCn-1z0lLlR~OdhvRXl5jP4yYA58cl8LdKp40vZCp~UXnm5MLUleGP~ZGKWytQLPTgnHHU4QtaAK8RYxIDGiCvZaaZ1esvR~JpcrpibXRe6bP5GKZP9iIrW0RurEDe8fIB0UOMAGuWmkLOgIxELon1Af7QuS-NQtCKn01NqWmUcHOjQtxK1khc-JoKLoU4n-wUFJZljPRbj4i5cdIylPdtsJNG5Ml6Al7CIN0ZzAbQkX34sSLUtWPSaLf7Wfn~LCptk5vbugGH2DRg1TrqB3EqWsmxxQlXagXZGgO9nA__&Key-Pair-Id=APKAJH3M4WZ5KWSFJI6Q","iot_id":"2492c09a-1ed5-4c70-9efb-ff2dd9c1583e"}
+03-25 17:58:55.599 I/a       ( 2757): send Iot ack IotId:2492c09a-1ed5-4c70-9efb-ff2dd9c1583e
+03-25 17:58:55.604 D/HttpRequest( 2757): url : https://apiops.wicanvas.net/device/iot/receiveIoTAck
+03-25 17:58:55.604 D/HttpRequest( 2757): value : {"mac_address":"1C:C0:E1:40:B5:98","iot_id":"2492c09a-1ed5-4c70-9efb-ff2dd9c1583e"}
+03-25 17:58:55.831 I/a       ( 2757): Iot ack finish
+03-25 17:58:56.382 D/wpa_supplicant( 1600): wlan0: Control interface command 'SIGNAL_POLL'
+03-25 17:58:56.390 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=49
+03-25 17:58:57.473 D/ImagePlayer( 2757): [99637285][Player 0] call next content to preload.
+03-25 17:58:57.477 D/ProgramControllerImpl( 2757): get content from self content list.
+03-25 17:58:57.483 D/ProgramControllerImpl( 2757): Program is video:false
+03-25 17:58:57.500 I/MediaFocusControl( 1042):  AudioFocus  abandonAudioFocus() from android.media.AudioManager@a9cbf97com.android.music.MediaPlaybackService$3@ce7c584
+03-25 17:58:57.500 V/MusicFXControlPanelReceiver( 2800): onReceive
+03-25 17:58:57.501 V/MusicFXControlPanelReceiver( 2800): Action: android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION
+03-25 17:58:57.501 V/MusicFXControlPanelReceiver( 2800): Package name: com.android.music
+03-25 17:58:57.501 V/MusicFXControlPanelReceiver( 2800): Audio session: 16
+03-25 17:58:57.502 V/MusicFXControlPanelEffect( 2800): closeSession(android.app.ReceiverRestrictedContext@9d9a2fa, com.android.music, 16)
+03-25 17:58:57.510 D/ImagePlayer( 2757): [234049953][Player 0] load image.
+03-25 17:58:57.516 I/ActivityManager( 1042): Killing 1827:com.android.music/u0a53 (adj 15): empty #17
+03-25 17:58:57.588 V/RemoteController( 2059): Updating current controller package as swpc.wistron.com.wiwall.tv from com.android.music
+03-25 17:58:57.591 D/AudioManager( 2059): updateMediaPlayerList: Add RCC swpc.wistron.com.wiwall.tv to List
+03-25 17:58:57.591 V/AudioService( 1042): addMediaPlayerAndUpdateRemoteController: size of existing list: 1
+03-25 17:58:57.591 E/AudioService( 1042): Player: com.android.musicLost Focus
+03-25 17:58:57.591 E/AudioService( 1042): Adding Player: swpc.wistron.com.wiwall.tv to available player list
+03-25 17:58:57.593 V/AudioService( 1042): updating focussed RCC change to RCD: CallingPackageName:swpc.wistron.com.wiwall.tv
+03-25 17:58:57.594 V/Avrcp   ( 2059): received RCC_CHANGED_ACTION
+03-25 17:58:57.594 V/Avrcp   ( 2059): New genId = 0, clearing = 0
+03-25 17:58:57.594 I/Avrcp   ( 2059): State change for music app
+03-25 17:58:57.594 V/Avrcp   ( 2059): updatePlayPauseState, state: 0 device: null
+03-25 17:58:57.594 V/Avrcp   ( 2059): focus: true , availability: true
+03-25 17:58:57.594 V/Avrcp   ( 2059): Device: no name: 
+03-25 17:58:57.594 V/Avrcp   ( 2059): updatePlayerPlayPauseState, old=0, state=0
+03-25 17:58:57.594 V/Avrcp   ( 2059): old state = 0, new state= 0
+03-25 17:58:57.594 V/Avrcp   ( 2059): getPlayPosition position: 0 Device:null
+03-25 17:58:57.594 I/Avrcp   ( 2059): updatePlayStatusForDevice: device: null
+03-25 17:58:57.594 V/Avrcp   ( 2059): oldPlayStatus 0
+03-25 17:58:57.594 V/Avrcp   ( 2059): newPlayStatus 0
+03-25 17:58:57.595 V/Avrcp   ( 2059): MSG_UPDATE_RCC_CHANGE
+03-25 17:58:57.595 V/Avrcp   ( 2059): processRCCStateChange: swpc.wistron.com.wiwall.tv
+03-25 17:58:57.595 V/Avrcp   ( 2059): SetaddressedPlayer request is not in progress
+03-25 17:58:57.595 V/Avrcp   ( 2059): isResetFocusRequired: true
+03-25 17:58:57.595 V/Avrcp   ( 2059): setting swpc.wistron.com.wiwall.tv focus: false
+03-25 17:58:57.595 V/Avrcp   ( 2059): Send MSG_UPDATE_ADDRESSED_PLAYER: 0
+03-25 17:58:57.595 V/Avrcp   ( 2059): updateAddressedMediaPlayer
+03-25 17:58:57.595 V/Avrcp   ( 2059): current Player: 1
+03-25 17:58:57.595 V/Avrcp   ( 2059): Requested Player: 0
+03-25 17:58:57.595 V/Avrcp   ( 2059): Do not reset notifications, ADDR_PLAYR_CHNGD not registered
+03-25 17:58:57.609 D/ImagePlayer( 2757): [234049953][Player 0] draw image
+03-25 17:58:58.306 I/AlarmService( 2757): receive alarm INTENT_ALARM_ALARMED_ARRIVED
+03-25 17:58:58.306 I/AlarmService( 2757): currentScheduleId= 1
+03-25 17:58:58.306 I/AlarmService( 2757): scheduleId= 1
+03-25 17:58:58.306 I/AlarmService( 2757): VideoFragment= true
+03-25 17:58:58.480 D/ImagePlayer( 2757): [99637285][Player 0] image play onComplete.
+03-25 17:58:58.482 D/ImagePlayer( 2757): [234049953][Player 0] play image.
+03-25 17:58:58.485 D/ProgramControllerImpl( 2757): send id: 2320_1, type: 3, start time: 17:58:48, end time: 17:58:58
+03-25 17:58:58.583 D/ProgramControllerImpl( 2757): send id: 1471, type: 1, start time: 17:58:48, end time: 17:58:58
+03-25 17:58:58.584 D/ImagePlayer( 2757): [99637285][Player 0] release resource.
+03-25 17:58:59.415 D/wpa_supplicant( 1600): wlan0: Control interface command 'SIGNAL_POLL'
+03-25 17:58:59.427 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=49
+03-25 17:59:02.449 D/wpa_supplicant( 1600): wlan0: Control interface command 'SIGNAL_POLL'
+03-25 17:59:02.454 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=49
+03-25 17:59:05.483 D/wpa_supplicant( 1600): wlan0: Control interface command 'SIGNAL_POLL'
+03-25 17:59:05.488 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=49
+03-25 17:59:07.495 D/ImagePlayer( 2757): [234049953][Player 0] call next content to preload.
+03-25 17:59:07.498 D/ProgramControllerImpl( 2757): get content from self content list.
+03-25 17:59:07.504 D/ProgramControllerImpl( 2757): Program is video:false
+03-25 17:59:07.537 D/ImagePlayer( 2757): [232995107][Player 0] load image.
+03-25 17:59:07.646 D/ImagePlayer( 2757): [232995107][Player 0] draw image
+03-25 17:59:08.499 D/ImagePlayer( 2757): [234049953][Player 0] image play onComplete.
+03-25 17:59:08.499 D/ImagePlayer( 2757): [232995107][Player 0] play image.
+03-25 17:59:08.500 D/ProgramControllerImpl( 2757): send id: 2320_1, type: 3, start time: 17:58:58, end time: 17:59:08
+03-25 17:59:08.510 D/wpa_supplicant( 1600): wlan0: Control interface command 'SIGNAL_POLL'
+03-25 17:59:08.518 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=49
+03-25 17:59:08.521 D/ConnectivityService( 1042): updateNetworkScore for NetworkAgentInfo [WIFI () - 100] to 56
+03-25 17:59:08.603 D/ProgramControllerImpl( 2757): send id: 1471, type: 1, start time: 17:58:58, end time: 17:59:08
+03-25 17:59:08.603 D/ImagePlayer( 2757): [234049953][Player 0] release resource.
+03-25 17:59:10.893 I/MSM-irqbalance(  581): Decided to move IRQ65 from CPU1 to CPU3
+03-25 17:59:11.538 D/wpa_supplicant( 1600): wlan0: Control interface command 'SIGNAL_POLL'
+03-25 17:59:11.544 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=49
+03-25 17:59:14.565 D/wpa_supplicant( 1600): wlan0: Control interface command 'SIGNAL_POLL'
+03-25 17:59:14.574 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=49
+03-25 17:59:15.892 I/MSM-irqbalance(  581): Decided to move IRQ253 from CPU1 to CPU3
+03-25 17:59:16.585 D/wpa_supplicant( 1600): wlan0: Control interface command 'SCAN TYPE=ONLY'
+03-25 17:59:16.585 D/wpa_supplicant( 1600): wlan0: Setting scan request: 0.000000 sec
+03-25 17:59:16.585 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=3
+03-25 17:59:16.585 D/wpa_supplicant( 1600): wlan0: Starting AP scan for wildcard SSID
+03-25 17:59:16.586 D/wpa_supplicant( 1600): wlan0: Add radio work 'scan'@0x7f890a6140
+03-25 17:59:16.586 D/wpa_supplicant( 1600): wlan0: First radio work item in the queue - schedule start immediately
+03-25 17:59:16.586 D/wpa_supplicant( 1600): wlan0: Starting radio work 'scan'@0x7f890a6140 after 0.000183 second wait
+03-25 17:59:16.586 D/wpa_supplicant( 1600): wlan0: nl80211: scan request
+03-25 17:59:16.586 D/wpa_supplicant( 1600): nl80211: Scan SSID - hexdump(len=0): [NULL]
+03-25 17:59:16.586 D/wpa_supplicant( 1600): nl80211: Scan extra IEs - hexdump(len=7): 7f 05 00 00 0a 02 01
+03-25 17:59:16.588 D/wpa_supplicant( 1600): Scan requested (ret=0) - scan timeout 30 seconds
+03-25 17:59:16.588 D/wpa_supplicant( 1600): nl80211: Event message available
+03-25 17:59:16.588 D/wpa_supplicant( 1600): nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+03-25 17:59:16.588 D/wpa_supplicant( 1600): wlan0: nl80211: Scan trigger
+03-25 17:59:16.589 D/wpa_supplicant( 1600): wlan0: Event SCAN_STARTED (47) received
+03-25 17:59:16.589 D/wpa_supplicant( 1600): wlan0: Own scan request started a scan in 0.000382 seconds
+03-25 17:59:16.589 D/wpa_supplicant( 1600): CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=212992 outq=768 send_len=24
+03-25 17:59:16.590 D/wpa_supplicant( 1600): CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_517-2\x00
+03-25 17:59:16.590 D/wpa_supplicant( 1600): CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=212992 outq=1536 send_len=24
+03-25 17:59:16.590 D/wpa_supplicant( 1600): CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1042-2\x00
+03-25 17:59:17.516 D/ImagePlayer( 2757): [232995107][Player 0] call next content to preload.
+03-25 17:59:17.519 D/ProgramControllerImpl( 2757): get content from self content list.
+03-25 17:59:17.524 D/ProgramControllerImpl( 2757): Program is video:false
+03-25 17:59:17.546 D/ImagePlayer( 2757): [212223103][Player 0] load image.
+03-25 17:59:17.588 D/wpa_supplicant( 1600): wlan0: Control interface command 'SIGNAL_POLL'
+03-25 17:59:17.594 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=49
+03-25 17:59:17.669 D/ImagePlayer( 2757): [212223103][Player 0] draw image
+03-25 17:59:18.519 D/ImagePlayer( 2757): [232995107][Player 0] image play onComplete.
+03-25 17:59:18.520 D/ImagePlayer( 2757): [212223103][Player 0] play image.
+03-25 17:59:18.524 D/ProgramControllerImpl( 2757): send id: 2320_1, type: 3, start time: 17:59:08, end time: 17:59:18
+03-25 17:59:18.621 D/ProgramControllerImpl( 2757): send id: 1471, type: 1, start time: 17:59:08, end time: 17:59:18
+03-25 17:59:18.621 D/ImagePlayer( 2757): [232995107][Player 0] release resource.
+03-25 17:59:20.042 D/wpa_supplicant( 1600): nl80211: Event message available
+03-25 17:59:20.042 D/wpa_supplicant( 1600): nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+03-25 17:59:20.042 D/wpa_supplicant( 1600): wlan0: nl80211: New scan results available
+03-25 17:59:20.043 D/wpa_supplicant( 1600): nl80211: Scan included frequencies: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 5280 5300 5320 5500 5520 5540 5560 5580 5660 5680 5700 5720 5745 5765 5785 5805 5825
+03-25 17:59:20.043 D/wpa_supplicant( 1600): wlan0: Event SCAN_RESULTS (3) received
+03-25 17:59:20.043 D/wpa_supplicant( 1600): wlan0: Scan completed in 3.454076 seconds
+03-25 17:59:20.044 D/wpa_supplicant( 1600): nl80211: Associated on 5745 MHz
+03-25 17:59:20.044 D/wpa_supplicant( 1600): nl80211: Associated with b0:39:56:96:f4:40
+03-25 17:59:20.044 D/wpa_supplicant( 1600): nl80211: Received scan results (32 BSSes)
+03-25 17:59:20.046 D/wpa_supplicant( 1600): nl80211: Scan results indicate BSS status with b0:39:56:96:f4:40 as associated
+03-25 17:59:20.046 D/wpa_supplicant( 1600): wlan0: BSS: Start scan result update 3
+03-25 17:59:20.047 D/wpa_supplicant( 1600): wlan0: BSS: Add new id 35 BSSID 00:50:7f:e2:d7:20 SSID 'tesco'
+03-25 17:59:20.047 D/wpa_supplicant( 1600): CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=212992 outq=0 send_len=41
+03-25 17:59:20.049 D/wpa_supplicant( 1600): CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_517-2\x00
+03-25 17:59:20.049 D/wpa_supplicant( 1600): CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=212992 outq=0 send_len=41
+03-25 17:59:20.050 D/wpa_supplicant( 1600): CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1042-2\x00
+03-25 17:59:20.051 D/wpa_supplicant( 1600): wlan0: BSS: Add new id 36 BSSID 60:a4:4c:a0:e4:08 SSID 'ASUS_RT-AC66U_2.4G'
+03-25 17:59:20.051 D/wpa_supplicant( 1600): CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=212992 outq=0 send_len=41
+03-25 17:59:20.051 D/wpa_supplicant( 1600): CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_517-2\x00
+03-25 17:59:20.051 D/wpa_supplicant( 1600): CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=212992 outq=768 send_len=41
+03-25 17:59:20.052 D/wpa_supplicant( 1600): CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1042-2\x00
+03-25 17:59:20.052 D/wpa_supplicant( 1600): wlan0: BSS: Add new id 37 BSSID a6:a1:34:98:13:eb SSID 'Hank's iPhone'
+03-25 17:59:20.052 D/wpa_supplicant( 1600): CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=212992 outq=0 send_len=41
+03-25 17:59:20.054 D/wpa_supplicant( 1600): CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_517-2\x00
+03-25 17:59:20.054 D/wpa_supplicant( 1600): CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=212992 outq=768 send_len=41
+03-25 17:59:20.054 D/wpa_supplicant( 1600): CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1042-2\x00
+03-25 17:59:20.054 D/wpa_supplicant( 1600): wlan0: BSS: Remove id 20 BSSID 40:18:b1:c1:f9:54 SSID 'Wistronwlan' due to no match in scan
+03-25 17:59:20.055 D/wpa_supplicant( 1600): CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=212992 outq=0 send_len=43
+03-25 17:59:20.055 D/wpa_supplicant( 1600): CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_517-2\x00
+03-25 17:59:20.055 D/wpa_supplicant( 1600): CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=212992 outq=768 send_len=43
+03-25 17:59:20.055 D/wpa_supplicant( 1600): CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1042-2\x00
+03-25 17:59:20.055 D/wpa_supplicant( 1600): wlan0: BSS: Remove id 25 BSSID 40:18:b1:c1:f7:d5 SSID '' due to no match in scan
+03-25 17:59:20.055 D/wpa_supplicant( 1600): CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=212992 outq=768 send_len=43
+03-25 17:59:20.055 D/wpa_supplicant( 1600): CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_517-2\x00
+03-25 17:59:20.055 D/wpa_supplicant( 1600): CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=212992 outq=768 send_len=43
+03-25 17:59:20.055 D/wpa_supplicant( 1600): CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1042-2\x00
+03-25 17:59:20.055 D/wpa_supplicant( 1600): wlan0: BSS: Remove id 26 BSSID 40:18:b1:c2:1d:d5 SSID '' due to no match in scan
+03-25 17:59:20.055 D/wpa_supplicant( 1600): CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=212992 outq=768 send_len=43
+03-25 17:59:20.055 D/wpa_supplicant( 1600): CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_517-2\x00
+03-25 17:59:20.055 D/wpa_supplicant( 1600): CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=212992 outq=768 send_len=43
+03-25 17:59:20.055 D/wpa_supplicant( 1600): CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1042-2\x00
+03-25 17:59:20.055 D/wpa_supplicant( 1600): BSS: last_scan_res_used=32/32
+03-25 17:59:20.055 D/wpa_supplicant( 1600): wlan0: Scan-only results received
+03-25 17:59:20.055 D/wpa_supplicant( 1600): CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=212992 outq=0 send_len=24
+03-25 17:59:20.055 D/wpa_supplicant( 1600): CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_517-2\x00
+03-25 17:59:20.055 D/wpa_supplicant( 1600): CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=212992 outq=768 send_len=24
+03-25 17:59:20.055 D/wpa_supplicant( 1600): CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1042-2\x00
+03-25 17:59:20.056 D/wpa_supplicant( 1600): wlan0: Radio work 'scan'@0x7f890a6140 done in 3.469669 seconds
+03-25 17:59:20.056 D/wpa_supplicant( 1600): wlan0: Control interface command 'SCAN_RESULTS'
+03-25 17:59:20.057 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=2129
+03-25 17:59:20.059 D/wpa_supplicant( 1600): wlan0: Control interface command 'SCAN_RESULTS'
+03-25 17:59:20.060 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=2129
+03-25 17:59:20.067 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=3259
+03-25 17:59:20.071 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=3351
+03-25 17:59:20.077 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=3939
+03-25 17:59:20.081 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=3367
+03-25 17:59:20.084 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=3877
+03-25 17:59:20.088 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=3389
+03-25 17:59:20.091 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=3772
+03-25 17:59:20.093 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=1087
+03-25 17:59:20.107 D/wpa_supplicant( 1600): EAPOL: EAP Session-Id not available
+03-25 17:59:20.107 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=277
+03-25 17:59:20.610 D/wpa_supplicant( 1600): wlan0: Control interface command 'SIGNAL_POLL'
+03-25 17:59:20.617 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=49
+03-25 17:59:20.620 D/ConnectivityService( 1042): updateNetworkScore for NetworkAgentInfo [WIFI () - 100] to 60
+03-25 17:59:20.894 I/MSM-irqbalance(  581): Decided to move IRQ215 from CPU1 to CPU3
+03-25 17:59:23.638 D/wpa_supplicant( 1600): wlan0: Control interface command 'SIGNAL_POLL'
+03-25 17:59:23.643 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=49
+03-25 17:59:25.891 I/MSM-irqbalance(  581): Decided to move IRQ304 from CPU1 to CPU3
+03-25 17:59:26.662 D/wpa_supplicant( 1600): wlan0: Control interface command 'SIGNAL_POLL'
+03-25 17:59:26.670 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=49
+03-25 17:59:27.530 D/ImagePlayer( 2757): [212223103][Player 0] call next content to preload.
+03-25 17:59:27.534 D/ProgramControllerImpl( 2757): get content from self content list.
+03-25 17:59:27.538 D/ProgramControllerImpl( 2757): Program is video:false
+03-25 17:59:27.563 D/ImagePlayer( 2757): [107260315][Player 0] load image.
+03-25 17:59:27.662 D/ImagePlayer( 2757): [107260315][Player 0] draw image
+03-25 17:59:28.533 D/ImagePlayer( 2757): [212223103][Player 0] image play onComplete.
+03-25 17:59:28.533 D/ImagePlayer( 2757): [107260315][Player 0] play image.
+03-25 17:59:28.535 D/ProgramControllerImpl( 2757): send id: 2320_1, type: 3, start time: 17:59:18, end time: 17:59:28
+03-25 17:59:28.636 D/ProgramControllerImpl( 2757): send id: 1471, type: 1, start time: 17:59:18, end time: 17:59:28
+03-25 17:59:28.637 D/ImagePlayer( 2757): [212223103][Player 0] release resource.
+03-25 17:59:29.699 D/wpa_supplicant( 1600): wlan0: Control interface command 'SIGNAL_POLL'
+03-25 17:59:29.706 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=49
+03-25 17:59:30.892 I/MSM-irqbalance(  581): Decided to move IRQ216 from CPU1 to CPU3
+03-25 17:59:32.728 D/wpa_supplicant( 1600): wlan0: Control interface command 'SIGNAL_POLL'
+03-25 17:59:32.734 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=49
+03-25 17:59:32.737 D/ConnectivityService( 1042): updateNetworkScore for NetworkAgentInfo [WIFI () - 100] to 56
+03-25 17:59:35.755 D/wpa_supplicant( 1600): wlan0: Control interface command 'SIGNAL_POLL'
+03-25 17:59:35.774 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=49
+03-25 17:59:35.893 I/MSM-irqbalance(  581): Decided to move IRQ48 from CPU1 to CPU3
+03-25 17:59:36.588 D/WifiStateMachine( 1042): starting scan for "D20F-1H0D-EMO"-WPA_PSK with 5745,2427
+03-25 17:59:36.589 D/wpa_supplicant( 1600): wlan0: Control interface command 'SCAN TYPE=ONLY freq=5745,2427'
+03-25 17:59:36.589 D/wpa_supplicant( 1600): wlan0: Setting scan request: 0.000000 sec
+03-25 17:59:36.589 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=3
+03-25 17:59:36.590 D/wpa_supplicant( 1600): wlan0: Starting AP scan for wildcard SSID
+03-25 17:59:36.590 D/wpa_supplicant( 1600): wlan0: Limit manual scan to specified channels
+03-25 17:59:36.590 D/wpa_supplicant( 1600): wlan0: Add radio work 'scan'@0x7f890a6190
+03-25 17:59:36.590 D/wpa_supplicant( 1600): wlan0: First radio work item in the queue - schedule start immediately
+03-25 17:59:36.590 D/wpa_supplicant( 1600): wlan0: Starting radio work 'scan'@0x7f890a6190 after 0.000154 second wait
+03-25 17:59:36.590 D/wpa_supplicant( 1600): wlan0: nl80211: scan request
+03-25 17:59:36.590 D/wpa_supplicant( 1600): nl80211: Scan SSID - hexdump(len=0): [NULL]
+03-25 17:59:36.590 D/wpa_supplicant( 1600): nl80211: Scan extra IEs - hexdump(len=7): 7f 05 00 00 0a 02 01
+03-25 17:59:36.590 D/wpa_supplicant( 1600): nl80211: Scan frequency 2427 MHz
+03-25 17:59:36.591 D/wpa_supplicant( 1600): nl80211: Scan frequency 5745 MHz
+03-25 17:59:36.598 D/wpa_supplicant( 1600): Scan requested (ret=0) - scan timeout 30 seconds
+03-25 17:59:36.599 D/wpa_supplicant( 1600): nl80211: Event message available
+03-25 17:59:36.599 D/wpa_supplicant( 1600): nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+03-25 17:59:36.599 D/wpa_supplicant( 1600): wlan0: nl80211: Scan trigger
+03-25 17:59:36.599 D/wpa_supplicant( 1600): wlan0: Event SCAN_STARTED (47) received
+03-25 17:59:36.599 D/wpa_supplicant( 1600): wlan0: Own scan request started a scan in 0.000491 seconds
+03-25 17:59:36.599 D/wpa_supplicant( 1600): CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=212992 outq=0 send_len=24
+03-25 17:59:36.600 D/wpa_supplicant( 1600): CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_517-2\x00
+03-25 17:59:36.600 D/wpa_supplicant( 1600): CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=212992 outq=0 send_len=24
+03-25 17:59:36.601 D/wpa_supplicant( 1600): CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1042-2\x00
+03-25 17:59:36.848 D/wpa_supplicant( 1600): nl80211: Event message available
+03-25 17:59:36.848 D/wpa_supplicant( 1600): nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+03-25 17:59:36.848 D/wpa_supplicant( 1600): wlan0: nl80211: New scan results available
+03-25 17:59:36.848 D/wpa_supplicant( 1600): nl80211: Scan included frequencies: 2427 5745
+03-25 17:59:36.848 D/wpa_supplicant( 1600): wlan0: Event SCAN_RESULTS (3) received
+03-25 17:59:36.848 D/wpa_supplicant( 1600): wlan0: Scan completed in 0.249251 seconds
+03-25 17:59:36.849 D/wpa_supplicant( 1600): nl80211: Associated on 5745 MHz
+03-25 17:59:36.849 D/wpa_supplicant( 1600): nl80211: Associated with b0:39:56:96:f4:40
+03-25 17:59:36.850 D/wpa_supplicant( 1600): nl80211: Received scan results (32 BSSes)
+03-25 17:59:36.850 D/wpa_supplicant( 1600): nl80211: Scan results indicate BSS status with b0:39:56:96:f4:40 as associated
+03-25 17:59:36.851 D/wpa_supplicant( 1600): wlan0: BSS: Start scan result update 4
+03-25 17:59:36.852 D/wpa_supplicant( 1600): BSS: last_scan_res_used=32/32
+03-25 17:59:36.853 D/wpa_supplicant( 1600): wlan0: Scan-only results received
+03-25 17:59:36.853 D/wpa_supplicant( 1600): CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=212992 outq=0 send_len=24
+03-25 17:59:36.853 D/wpa_supplicant( 1600): CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_517-2\x00
+03-25 17:59:36.854 D/wpa_supplicant( 1600): CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=212992 outq=0 send_len=24
+03-25 17:59:36.855 D/wpa_supplicant( 1600): CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1042-2\x00
+03-25 17:59:36.855 D/wpa_supplicant( 1600): wlan0: Radio work 'scan'@0x7f890a6190 done in 0.265142 seconds
+03-25 17:59:36.856 D/wpa_supplicant( 1600): wlan0: Control interface command 'SCAN_RESULTS'
+03-25 17:59:36.858 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=2129
+03-25 17:59:36.859 D/wpa_supplicant( 1600): wlan0: Control interface command 'SCAN_RESULTS'
+03-25 17:59:36.861 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=2129
+03-25 17:59:36.876 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=3259
+03-25 17:59:36.882 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=3351
+03-25 17:59:36.886 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=3939
+03-25 17:59:36.890 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=3367
+03-25 17:59:36.895 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=3877
+03-25 17:59:36.898 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=3389
+03-25 17:59:36.901 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=3772
+03-25 17:59:36.904 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=1087
+03-25 17:59:36.919 D/wpa_supplicant( 1600): EAPOL: EAP Session-Id not available
+03-25 17:59:36.919 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=277
+03-25 17:59:37.541 D/ImagePlayer( 2757): [107260315][Player 0] call next content to preload.
+03-25 17:59:37.543 D/ProgramControllerImpl( 2757): get content from self content list.
+03-25 17:59:37.548 D/ProgramControllerImpl( 2757): Program is video:false
+03-25 17:59:37.575 D/ImagePlayer( 2757): [114967671][Player 0] load image.
+03-25 17:59:37.697 D/ImagePlayer( 2757): [114967671][Player 0] draw image
+03-25 17:59:38.544 D/ImagePlayer( 2757): [107260315][Player 0] image play onComplete.
+03-25 17:59:38.544 D/ImagePlayer( 2757): [114967671][Player 0] play image.
+03-25 17:59:38.545 D/ProgramControllerImpl( 2757): send id: 2320_1, type: 3, start time: 17:59:28, end time: 17:59:38
+03-25 17:59:38.646 D/ProgramControllerImpl( 2757): send id: 1471, type: 1, start time: 17:59:28, end time: 17:59:38
+03-25 17:59:38.646 D/ImagePlayer( 2757): [107260315][Player 0] release resource.
+03-25 17:59:38.792 D/wpa_supplicant( 1600): wlan0: Control interface command 'SIGNAL_POLL'
+03-25 17:59:38.797 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=49
+03-25 17:59:41.820 D/wpa_supplicant( 1600): wlan0: Control interface command 'SIGNAL_POLL'
+03-25 17:59:41.828 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=49
+03-25 17:59:44.850 D/wpa_supplicant( 1600): wlan0: Control interface command 'SIGNAL_POLL'
+03-25 17:59:44.857 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=49
+03-25 17:59:45.245 I/top     ( 2996): type=1400 audit(0.0:984): avc: denied { search } for name="428" dev="proc" ino=12544 scontext=u:r:system_app:s0 tcontext=u:r:tee:s0 tclass=dir permissive=1
+03-25 17:59:45.245 I/top     ( 2996): type=1400 audit(0.0:985): avc: denied { read } for name="stat" dev="proc" ino=17740 scontext=u:r:system_app:s0 tcontext=u:r:tee:s0 tclass=file permissive=1
+03-25 17:59:45.245 I/top     ( 2996): type=1400 audit(0.0:986): avc: denied { open } for path="/proc/428/stat" dev="proc" ino=17740 scontext=u:r:system_app:s0 tcontext=u:r:tee:s0 tclass=file permissive=1
+03-25 17:59:45.245 I/top     ( 2996): type=1400 audit(0.0:987): avc: denied { getattr } for path="/proc/428/stat" dev="proc" ino=17740 scontext=u:r:system_app:s0 tcontext=u:r:tee:s0 tclass=file permissive=1
+03-25 17:59:45.245 I/top     ( 2996): type=1400 audit(0.0:988): avc: denied { read } for name="task" dev="proc" ino=31827 scontext=u:r:system_app:s0 tcontext=u:r:tee:s0 tclass=dir permissive=1
+03-25 17:59:45.245 I/top     ( 2996): type=1400 audit(0.0:989): avc: denied { open } for path="/proc/428/task" dev="proc" ino=31827 scontext=u:r:system_app:s0 tcontext=u:r:tee:s0 tclass=dir permissive=1
+03-25 17:59:45.245 I/top     ( 2996): type=1400 audit(0.0:990): avc: denied { read } for name="stat" dev="proc" ino=17743 scontext=u:r:system_app:s0 tcontext=u:r:per_mgr:s0 tclass=file permissive=1
+03-25 17:59:45.245 I/top     ( 2996): type=1400 audit(0.0:991): avc: denied { open } for path="/proc/431/stat" dev="proc" ino=17743 scontext=u:r:system_app:s0 tcontext=u:r:per_mgr:s0 tclass=file permissive=1
+03-25 17:59:45.245 I/top     ( 2996): type=1400 audit(0.0:992): avc: denied { getattr } for path="/proc/431/stat" dev="proc" ino=17743 scontext=u:r:system_app:s0 tcontext=u:r:per_mgr:s0 tclass=file permissive=1
+03-25 17:59:45.245 I/top     ( 2996): type=1400 audit(0.0:993): avc: denied { search } for name="444" dev="proc" ino=11766 scontext=u:r:system_app:s0 tcontext=u:r:shell:s0 tclass=dir permissive=1
+03-25 17:59:45.245 I/top     ( 2996): type=1400 audit(0.0:994): avc: denied { read } for name="stat" dev="proc" ino=17744 scontext=u:r:system_app:s0 tcontext=u:r:shell:s0 tclass=file permissive=1
+03-25 17:59:45.245 I/top     ( 2996): type=1400 audit(0.0:995): avc: denied { open } for path="/proc/444/stat" dev="proc" ino=17744 scontext=u:r:system_app:s0 tcontext=u:r:shell:s0 tclass=file permissive=1
+03-25 17:59:45.245 I/top     ( 2996): type=1400 audit(0.0:996): avc: denied { getattr } for path="/proc/444/stat" dev="proc" ino=17744 scontext=u:r:system_app:s0 tcontext=u:r:shell:s0 tclass=file permissive=1
+03-25 17:59:45.245 I/top     ( 2996): type=1400 audit(0.0:997): avc: denied { read } for name="task" dev="proc" ino=11767 scontext=u:r:system_app:s0 tcontext=u:r:shell:s0 tclass=dir permissive=1
+03-25 17:59:45.245 I/top     ( 2996): type=1400 audit(0.0:998): avc: denied { open } for path="/proc/444/task" dev="proc" ino=11767 scontext=u:r:system_app:s0 tcontext=u:r:shell:s0 tclass=dir permissive=1
+03-25 17:59:45.245 I/top     ( 2996): type=1400 audit(0.0:999): avc: denied { search } for name="500" dev="proc" ino=12596 scontext=u:r:system_app:s0 tcontext=u:r:netd:s0 tclass=dir permissive=1
+03-25 17:59:45.245 I/top     ( 2996): type=1400 audit(0.0:1000): avc: denied { read } for name="task" dev="proc" ino=12597 scontext=u:r:system_app:s0 tcontext=u:r:netd:s0 tclass=dir permissive=1
+03-25 17:59:45.245 I/top     ( 2996): type=1400 audit(0.0:1001): avc: denied { open } for path="/proc/500/task" dev="proc" ino=12597 scontext=u:r:system_app:s0 tcontext=u:r:netd:s0 tclass=dir permissive=1
+03-25 17:59:45.245 I/top     ( 2996): type=1400 audit(0.0:1002): avc: denied { search } for name="501" dev="proc" ino=5892 scontext=u:r:system_app:s0 tcontext=u:r:debuggerd:s0 tclass=dir permissive=1
+03-25 17:59:45.245 I/top     ( 2996): type=1400 audit(0.0:1003): avc: denied { read } for name="stat" dev="proc" ino=17747 scontext=u:r:system_app:s0 tcontext=u:r:debuggerd:s0 tclass=file permissive=1
+03-25 17:59:45.245 I/top     ( 2996): type=1400 audit(0.0:1004): avc: denied { open } for path="/proc/501/stat" dev="proc" ino=17747 scontext=u:r:system_app:s0 tcontext=u:r:debuggerd:s0 tclass=file permissive=1
+03-25 17:59:45.245 I/top     ( 2996): type=1400 audit(0.0:1005): avc: denied { getattr } for path="/proc/501/stat" dev="proc" ino=17747 scontext=u:r:system_app:s0 tcontext=u:r:debuggerd:s0 tclass=file permissive=1
+03-25 17:59:47.553 D/ImagePlayer( 2757): [114967671][Player 0] call next content to preload.
+03-25 17:59:47.554 D/ProgramControllerImpl( 2757): get content from self content list.
+03-25 17:59:47.559 D/ProgramControllerImpl( 2757): Program is video:false
+03-25 17:59:47.588 D/ImagePlayer( 2757): [262451475][Player 0] load image.
+03-25 17:59:47.685 D/ImagePlayer( 2757): [262451475][Player 0] draw image
+03-25 17:59:47.878 D/wpa_supplicant( 1600): wlan0: Control interface command 'SIGNAL_POLL'
+03-25 17:59:47.887 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=49
+03-25 17:59:48.425 I/top     ( 2996): type=1400 audit(0.0:1029): avc: denied { read } for name="stat" dev="proc" ino=17746 scontext=u:r:system_app:s0 tcontext=u:r:netd:s0 tclass=file permissive=1
+03-25 17:59:48.425 I/top     ( 2996): type=1400 audit(0.0:1030): avc: denied { open } for path="/proc/500/stat" dev="proc" ino=17746 scontext=u:r:system_app:s0 tcontext=u:r:netd:s0 tclass=file permissive=1
+03-25 17:59:48.425 I/top     ( 2996): type=1400 audit(0.0:1031): avc: denied { getattr } for path="/proc/500/stat" dev="proc" ino=17746 scontext=u:r:system_app:s0 tcontext=u:r:netd:s0 tclass=file permissive=1
+03-25 17:59:48.474 I/System.out( 2757): User 3%, System 4%, IOW 0%, IRQ 1%
+03-25 17:59:48.482 D/BluetoothUtils( 2059): callingUid =1000
+03-25 17:59:48.483 E/BluetoothUtils( 2059): foregroundUser =0
+03-25 17:59:48.483 E/BluetoothUtils( 2059): callingUser =0
+03-25 17:59:48.484 I/A2dpStateMachine( 2059): mConnectedDevicesList size is 0
+03-25 17:59:48.556 D/ImagePlayer( 2757): [114967671][Player 0] image play onComplete.
+03-25 17:59:48.556 D/ImagePlayer( 2757): [262451475][Player 0] play image.
+03-25 17:59:48.556 D/ProgramControllerImpl( 2757): send id: 2320_1, type: 3, start time: 17:59:38, end time: 17:59:48
+03-25 17:59:48.569 D/HttpRequest( 2757): url : https://apiops.wicanvas.net/device/iot/syncMachineInfo
+03-25 17:59:48.570 D/HttpRequest( 2757): value : {"mac_address":"1C:C0:E1:40:B5:98","cpu":"8%","total_memory_size":"3.53 GB","memory_in_used":"721.11 MB","total_internal_storage":"8.24 GB","internal_storage_used":"1.17 GB","total_external_storage":"[]","external_storage_used":"[]","peripheral_list":"[]","app_version":"012-T-OPS","os_version":"6.0.1","device_agent_version":"msm8994-userdebug 6.0.1 WiWall-0.0.0.10-1520 46 test-keys","temperature":"38 °C","t_con":"0","backlight":"On","ntp_server_ip":"[tock.stdtime.gov.tw, time1.google.com, 0.tw.pool.ntp.org]","ntp_reachability":"[100.0% Success, No Data, No Data]","ntp_average_rms_offset":"[18 ms, No Data, No Data]","ntp_last_sync_time":"[Mon Mar 25 17:58:48 GMT+08:00 2019, No Data, No Data]","machine_ip":"192.168.1.40","g_sensor_data":"X=-0.20362854, Y=-9.460968, Z=2.5108032","brightness":196,"volume":0,"resolution_w":1920,"resolution_h":1080,"angle":178,"bt_speaker_connect":false,"bt_speaker_name":"null"}
+03-25 17:59:48.660 D/ProgramControllerImpl( 2757): send id: 1471, type: 1, start time: 17:59:38, end time: 17:59:48
+03-25 17:59:48.660 D/ImagePlayer( 2757): [114967671][Player 0] release resource.
+03-25 17:59:48.814 D/p       ( 2757): /device/iot/syncMachineInfo processFinish!
+03-25 17:59:50.891 I/MSM-irqbalance(  581): Decided to move IRQ135 from CPU1 to CPU3
+03-25 17:59:50.905 D/wpa_supplicant( 1600): wlan0: Control interface command 'SIGNAL_POLL'
+03-25 17:59:50.914 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=49
+03-25 17:59:53.935 D/wpa_supplicant( 1600): wlan0: Control interface command 'SIGNAL_POLL'
+03-25 17:59:53.943 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=49
+03-25 17:59:56.593 D/wpa_supplicant( 1600): wlan0: Control interface command 'SCAN TYPE=ONLY'
+03-25 17:59:56.593 D/wpa_supplicant( 1600): wlan0: Setting scan request: 0.000000 sec
+03-25 17:59:56.593 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=3
+03-25 17:59:56.593 D/wpa_supplicant( 1600): wlan0: Starting AP scan for wildcard SSID
+03-25 17:59:56.594 D/wpa_supplicant( 1600): wlan0: Add radio work 'scan'@0x7f890a6140
+03-25 17:59:56.594 D/wpa_supplicant( 1600): wlan0: First radio work item in the queue - schedule start immediately
+03-25 17:59:56.594 D/wpa_supplicant( 1600): wlan0: Starting radio work 'scan'@0x7f890a6140 after 0.000148 second wait
+03-25 17:59:56.594 D/wpa_supplicant( 1600): wlan0: nl80211: scan request
+03-25 17:59:56.594 D/wpa_supplicant( 1600): nl80211: Scan SSID - hexdump(len=0): [NULL]
+03-25 17:59:56.594 D/wpa_supplicant( 1600): nl80211: Scan extra IEs - hexdump(len=7): 7f 05 00 00 0a 02 01
+03-25 17:59:56.601 D/wpa_supplicant( 1600): Scan requested (ret=0) - scan timeout 30 seconds
+03-25 17:59:56.601 D/wpa_supplicant( 1600): nl80211: Event message available
+03-25 17:59:56.601 D/wpa_supplicant( 1600): nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+03-25 17:59:56.601 D/wpa_supplicant( 1600): wlan0: nl80211: Scan trigger
+03-25 17:59:56.601 D/wpa_supplicant( 1600): wlan0: Event SCAN_STARTED (47) received
+03-25 17:59:56.602 D/wpa_supplicant( 1600): wlan0: Own scan request started a scan in 0.000811 seconds
+03-25 17:59:56.602 D/wpa_supplicant( 1600): CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=212992 outq=0 send_len=24
+03-25 17:59:56.602 D/wpa_supplicant( 1600): CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_517-2\x00
+03-25 17:59:56.602 D/wpa_supplicant( 1600): CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=212992 outq=768 send_len=24
+03-25 17:59:56.605 D/wpa_supplicant( 1600): CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1042-2\x00
+03-25 17:59:56.965 D/wpa_supplicant( 1600): wlan0: Control interface command 'SIGNAL_POLL'
+03-25 17:59:56.971 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=49
+03-25 17:59:56.974 D/ConnectivityService( 1042): notifyType CAP_CHANGED for NetworkAgentInfo [WIFI () - 100]
+03-25 17:59:57.560 D/ImagePlayer( 2757): [262451475][Player 0] call next content to preload.
+03-25 17:59:57.563 D/ProgramControllerImpl( 2757): get content from self content list.
+03-25 17:59:57.568 D/ProgramControllerImpl( 2757): Program is video:false
+03-25 17:59:57.602 D/ImagePlayer( 2757): [77548399][Player 0] load image.
+03-25 17:59:57.724 D/ImagePlayer( 2757): [77548399][Player 0] draw image
+03-25 17:59:58.563 D/ImagePlayer( 2757): [262451475][Player 0] image play onComplete.
+03-25 17:59:58.564 D/ImagePlayer( 2757): [77548399][Player 0] play image.
+03-25 17:59:58.565 D/ProgramControllerImpl( 2757): send id: 2320_1, type: 3, start time: 17:59:48, end time: 17:59:58
+03-25 17:59:58.667 D/ProgramControllerImpl( 2757): send id: 1471, type: 1, start time: 17:59:48, end time: 17:59:58
+03-25 17:59:58.667 D/ImagePlayer( 2757): [262451475][Player 0] release resource.
+03-25 17:59:59.992 D/wpa_supplicant( 1600): wlan0: Control interface command 'SIGNAL_POLL'
+03-25 18:00:00.000 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=49
+03-25 18:00:00.003 D/ConnectivityService( 1042): notifyType CAP_CHANGED for NetworkAgentInfo [WIFI () - 100]
+03-25 18:00:00.022 D/wpa_supplicant( 1600): nl80211: Event message available
+03-25 18:00:00.022 D/wpa_supplicant( 1600): nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+03-25 18:00:00.022 D/wpa_supplicant( 1600): wlan0: nl80211: New scan results available
+03-25 18:00:00.022 D/wpa_supplicant( 1600): nl80211: Scan included frequencies: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 5280 5300 5320 5500 5520 5540 5560 5580 5660 5680 5700 5720 5745 5765 5785 5805 5825
+03-25 18:00:00.022 D/wpa_supplicant( 1600): wlan0: Event SCAN_RESULTS (3) received
+03-25 18:00:00.022 D/wpa_supplicant( 1600): wlan0: Scan completed in 3.420691 seconds
+03-25 18:00:00.023 D/wpa_supplicant( 1600): nl80211: Associated on 5745 MHz
+03-25 18:00:00.023 D/wpa_supplicant( 1600): nl80211: Associated with b0:39:56:96:f4:40
+03-25 18:00:00.023 D/wpa_supplicant( 1600): nl80211: Received scan results (31 BSSes)
+03-25 18:00:00.023 D/wpa_supplicant( 1600): nl80211: Scan results indicate BSS status with b0:39:56:96:f4:40 as associated
+03-25 18:00:00.023 D/wpa_supplicant( 1600): wlan0: BSS: Start scan result update 5
+03-25 18:00:00.024 D/wpa_supplicant( 1600): wlan0: BSS: Add new id 38 BSSID 40:18:b1:c2:1d:d5 SSID ''
+03-25 18:00:00.024 D/wpa_supplicant( 1600): CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=212992 outq=0 send_len=41
+03-25 18:00:00.024 D/wpa_supplicant( 1600): CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_517-2\x00
+03-25 18:00:00.024 D/wpa_supplicant( 1600): CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=212992 outq=768 send_len=41
+03-25 18:00:00.024 D/wpa_supplicant( 1600): CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1042-2\x00
+03-25 18:00:00.024 D/wpa_supplicant( 1600): wlan0: BSS: Remove id 27 BSSID 40:18:b1:c2:02:2a SSID '' due to no match in scan
+03-25 18:00:00.024 D/wpa_supplicant( 1600): CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=212992 outq=768 send_len=43
+03-25 18:00:00.024 D/wpa_supplicant( 1600): CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_517-2\x00
+03-25 18:00:00.024 D/wpa_supplicant( 1600): CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=212992 outq=1536 send_len=43
+03-25 18:00:00.024 D/wpa_supplicant( 1600): CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1042-2\x00
+03-25 18:00:00.024 D/wpa_supplicant( 1600): BSS: last_scan_res_used=31/32
+03-25 18:00:00.024 D/wpa_supplicant( 1600): wlan0: Scan-only results received
+03-25 18:00:00.024 D/wpa_supplicant( 1600): CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=212992 outq=1536 send_len=24
+03-25 18:00:00.024 D/wpa_supplicant( 1600): CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_517-2\x00
+03-25 18:00:00.024 D/wpa_supplicant( 1600): CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=212992 outq=768 send_len=24
+03-25 18:00:00.024 D/wpa_supplicant( 1600): CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1042-2\x00
+03-25 18:00:00.025 D/wpa_supplicant( 1600): wlan0: Radio work 'scan'@0x7f890a6140 done in 3.430720 seconds
+03-25 18:00:00.025 D/wpa_supplicant( 1600): wlan0: Control interface command 'SCAN_RESULTS'
+03-25 18:00:00.026 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=2129
+03-25 18:00:00.026 D/wpa_supplicant( 1600): wlan0: Control interface command 'SCAN_RESULTS'
+03-25 18:00:00.027 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=2129
+03-25 18:00:00.035 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=3259
+03-25 18:00:00.039 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=3351
+03-25 18:00:00.042 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=3939
+03-25 18:00:00.045 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=3367
+03-25 18:00:00.051 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=3877
+03-25 18:00:00.054 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=3514
+03-25 18:00:00.056 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=4086
+03-25 18:00:00.058 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=568
+03-25 18:00:00.068 D/wpa_supplicant( 1600): EAPOL: EAP Session-Id not available
+03-25 18:00:00.068 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=277
+03-25 18:00:00.891 I/MSM-irqbalance(  581): Decided to move IRQ65 from CPU3 to CPU0
+03-25 18:00:03.027 D/wpa_supplicant( 1600): wlan0: Control interface command 'SIGNAL_POLL'
+03-25 18:00:03.034 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=49
+03-25 18:00:05.895 I/MSM-irqbalance(  581): Decided to move IRQ253 from CPU3 to CPU0
+03-25 18:00:06.056 D/wpa_supplicant( 1600): wlan0: Control interface command 'SIGNAL_POLL'
+03-25 18:00:06.063 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=49
+03-25 18:00:07.572 D/ImagePlayer( 2757): [77548399][Player 0] call next content to preload.
+03-25 18:00:07.573 D/ProgramControllerImpl( 2757): get content from self content list.
+03-25 18:00:07.578 D/ProgramControllerImpl( 2757): Program is video:false
+03-25 18:00:07.599 D/ImagePlayer( 2757): [33501067][Player 0] load image.
+03-25 18:00:07.710 D/ImagePlayer( 2757): [33501067][Player 0] draw image
+03-25 18:00:08.574 D/ImagePlayer( 2757): [77548399][Player 0] image play onComplete.
+03-25 18:00:08.574 D/ImagePlayer( 2757): [33501067][Player 0] play image.
+03-25 18:00:08.575 D/ProgramControllerImpl( 2757): send id: 2320_1, type: 3, start time: 17:59:58, end time: 18:00:08
+03-25 18:00:08.678 D/ProgramControllerImpl( 2757): send id: 1471, type: 1, start time: 17:59:58, end time: 18:00:08
+03-25 18:00:08.678 D/ImagePlayer( 2757): [77548399][Player 0] release resource.
+03-25 18:00:09.085 D/wpa_supplicant( 1600): wlan0: Control interface command 'SIGNAL_POLL'
+03-25 18:00:09.094 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=49
+03-25 18:00:10.890 I/MSM-irqbalance(  581): Decided to move IRQ48 from CPU3 to CPU0
+03-25 18:00:12.112 D/wpa_supplicant( 1600): wlan0: Control interface command 'SIGNAL_POLL'
+03-25 18:00:12.125 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=49
+03-25 18:00:15.148 D/wpa_supplicant( 1600): wlan0: Control interface command 'SIGNAL_POLL'
+03-25 18:00:15.154 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=49
+03-25 18:00:15.892 I/MSM-irqbalance(  581): Decided to move IRQ304 from CPU3 to CPU0
+03-25 18:00:16.596 D/WifiStateMachine( 1042): starting scan for "D20F-1H0D-EMO"-WPA_PSK with 5745,2427
+03-25 18:00:16.598 D/wpa_supplicant( 1600): wlan0: Control interface command 'SCAN TYPE=ONLY freq=5745,2427'
+03-25 18:00:16.599 D/wpa_supplicant( 1600): wlan0: Setting scan request: 0.000000 sec
+03-25 18:00:16.599 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=3
+03-25 18:00:16.599 D/wpa_supplicant( 1600): wlan0: Starting AP scan for wildcard SSID
+03-25 18:00:16.599 D/wpa_supplicant( 1600): wlan0: Limit manual scan to specified channels
+03-25 18:00:16.599 D/wpa_supplicant( 1600): wlan0: Add radio work 'scan'@0x7f890a6190
+03-25 18:00:16.599 D/wpa_supplicant( 1600): wlan0: First radio work item in the queue - schedule start immediately
+03-25 18:00:16.600 D/wpa_supplicant( 1600): wlan0: Starting radio work 'scan'@0x7f890a6190 after 0.000161 second wait
+03-25 18:00:16.600 D/wpa_supplicant( 1600): wlan0: nl80211: scan request
+03-25 18:00:16.600 D/wpa_supplicant( 1600): nl80211: Scan SSID - hexdump(len=0): [NULL]
+03-25 18:00:16.600 D/wpa_supplicant( 1600): nl80211: Scan extra IEs - hexdump(len=7): 7f 05 00 00 0a 02 01
+03-25 18:00:16.600 D/wpa_supplicant( 1600): nl80211: Scan frequency 2427 MHz
+03-25 18:00:16.600 D/wpa_supplicant( 1600): nl80211: Scan frequency 5745 MHz
+03-25 18:00:16.602 D/wpa_supplicant( 1600): Scan requested (ret=0) - scan timeout 30 seconds
+03-25 18:00:16.602 D/wpa_supplicant( 1600): nl80211: Event message available
+03-25 18:00:16.602 D/wpa_supplicant( 1600): nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+03-25 18:00:16.602 D/wpa_supplicant( 1600): wlan0: nl80211: Scan trigger
+03-25 18:00:16.602 D/wpa_supplicant( 1600): wlan0: Event SCAN_STARTED (47) received
+03-25 18:00:16.602 D/wpa_supplicant( 1600): wlan0: Own scan request started a scan in 0.000468 seconds
+03-25 18:00:16.602 D/wpa_supplicant( 1600): CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=212992 outq=0 send_len=24
+03-25 18:00:16.603 D/wpa_supplicant( 1600): CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_517-2\x00
+03-25 18:00:16.603 D/wpa_supplicant( 1600): CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=212992 outq=768 send_len=24
+03-25 18:00:16.603 D/wpa_supplicant( 1600): CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1042-2\x00
+03-25 18:00:16.879 D/wpa_supplicant( 1600): nl80211: Event message available
+03-25 18:00:16.879 D/wpa_supplicant( 1600): nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+03-25 18:00:16.879 D/wpa_supplicant( 1600): wlan0: nl80211: New scan results available
+03-25 18:00:16.879 D/wpa_supplicant( 1600): nl80211: Scan included frequencies: 2427 5745
+03-25 18:00:16.879 D/wpa_supplicant( 1600): wlan0: Event SCAN_RESULTS (3) received
+03-25 18:00:16.879 D/wpa_supplicant( 1600): wlan0: Scan completed in 0.277212 seconds
+03-25 18:00:16.880 D/wpa_supplicant( 1600): nl80211: Associated on 5745 MHz
+03-25 18:00:16.880 D/wpa_supplicant( 1600): nl80211: Associated with b0:39:56:96:f4:40
+03-25 18:00:16.881 D/wpa_supplicant( 1600): nl80211: Received scan results (31 BSSes)
+03-25 18:00:16.882 D/wpa_supplicant( 1600): nl80211: Scan results indicate BSS status with b0:39:56:96:f4:40 as associated
+03-25 18:00:16.882 D/wpa_supplicant( 1600): wlan0: BSS: Start scan result update 6
+03-25 18:00:16.883 D/wpa_supplicant( 1600): BSS: last_scan_res_used=31/32
+03-25 18:00:16.883 D/wpa_supplicant( 1600): wlan0: Scan-only results received
+03-25 18:00:16.883 D/wpa_supplicant( 1600): CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=212992 outq=0 send_len=24
+03-25 18:00:16.884 D/wpa_supplicant( 1600): CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_517-2\x00
+03-25 18:00:16.884 D/wpa_supplicant( 1600): CTRL-DEBUG: ctrl_sock-sendmsg: sock=11 sndbuf=212992 outq=0 send_len=24
+03-25 18:00:16.884 D/wpa_supplicant( 1600): CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_1042-2\x00
+03-25 18:00:16.884 D/wpa_supplicant( 1600): wlan0: Radio work 'scan'@0x7f890a6190 done in 0.284966 seconds
+03-25 18:00:16.885 D/wpa_supplicant( 1600): wlan0: Control interface command 'SCAN_RESULTS'
+03-25 18:00:16.887 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=2129
+03-25 18:00:16.888 D/wpa_supplicant( 1600): wlan0: Control interface command 'SCAN_RESULTS'
+03-25 18:00:16.890 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=2129
+03-25 18:00:16.902 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=3259
+03-25 18:00:16.906 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=3351
+03-25 18:00:16.910 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=3939
+03-25 18:00:16.914 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=3367
+03-25 18:00:16.918 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=3877
+03-25 18:00:16.923 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=3514
+03-25 18:00:16.927 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=4086
+03-25 18:00:16.929 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=568
+03-25 18:00:16.945 D/wpa_supplicant( 1600): EAPOL: EAP Session-Id not available
+03-25 18:00:16.945 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=277
+03-25 18:00:17.582 D/ImagePlayer( 2757): [33501067][Player 0] call next content to preload.
+03-25 18:00:17.584 D/ProgramControllerImpl( 2757): get content from self content list.
+03-25 18:00:17.588 D/ProgramControllerImpl( 2757): Program is video:false
+03-25 18:00:17.616 D/ImagePlayer( 2757): [137312615][Player 0] load image.
+03-25 18:00:17.731 D/ImagePlayer( 2757): [137312615][Player 0] draw image
+03-25 18:00:18.174 D/wpa_supplicant( 1600): wlan0: Control interface command 'SIGNAL_POLL'
+03-25 18:00:18.180 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=49
+03-25 18:00:18.583 D/ImagePlayer( 2757): [33501067][Player 0] image play onComplete.
+03-25 18:00:18.584 D/ImagePlayer( 2757): [137312615][Player 0] play image.
+03-25 18:00:18.585 D/ProgramControllerImpl( 2757): send id: 2320_1, type: 3, start time: 18:00:08, end time: 18:00:18
+03-25 18:00:18.685 D/ProgramControllerImpl( 2757): send id: 1471, type: 1, start time: 18:00:08, end time: 18:00:18
+03-25 18:00:18.685 D/ImagePlayer( 2757): [33501067][Player 0] release resource.
+03-25 18:00:20.892 I/MSM-irqbalance(  581): Decided to move IRQ216 from CPU3 to CPU0
+03-25 18:00:21.210 D/wpa_supplicant( 1600): wlan0: Control interface command 'SIGNAL_POLL'
+03-25 18:00:21.218 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=49
+03-25 18:00:21.598 I/AWSIotMqttManager( 2757): message arrived on topic: /WIWALL/ops/3f3da8750cefaecc553ee7aad7f4bd4615bd93544df8f8e0f4a07c97a5a54001/scheduleUUID
+03-25 18:00:21.600 D/a       ( 2757): mqtt message = {"schedule_uuid":"cd118be0-4ee4-11e9-9c8e-b336f4d838cb","iot_id":"b5c67c37-4507-403f-8177-20f6c6b23e48"}
+03-25 18:00:21.629 I/a       ( 2757): send Iot ack IotId:b5c67c37-4507-403f-8177-20f6c6b23e48
+03-25 18:00:21.637 I/a       ( 2757): {"schedule_uuid":"cd118be0-4ee4-11e9-9c8e-b336f4d838cb","iot_id":"b5c67c37-4507-403f-8177-20f6c6b23e48"}
+03-25 18:00:21.638 D/HttpRequest( 2757): url : https://apiops.wicanvas.net/device/iot/receiveIoTAck
+03-25 18:00:21.638 D/HttpRequest( 2757): value : {"mac_address":"1C:C0:E1:40:B5:98","iot_id":"b5c67c37-4507-403f-8177-20f6c6b23e48"}
+03-25 18:00:21.641 D/HttpRequest( 2757): url : https://apiops.wicanvas.net/device/iot/getScheduleByUuid
+03-25 18:00:21.641 D/HttpRequest( 2757): value : {"schedule_uuid":"cd118be0-4ee4-11e9-9c8e-b336f4d838cb"}
+03-25 18:00:22.012 E/a       ( 2757): scheduleData = 
+03-25 18:00:22.012 E/a       ( 2757): {"ext":{"schedule_start_date":"2019-03-25","schedule_end_date":"2019-03-28","time_zone":"Asia/Taipei"},"scheduleData":[],"programDetail":{},"playlistDetail":{},"mediaDetail":{}}
+03-25 18:00:22.039 I/a       ( 2757): deviceSchedule UUID = ccf404c9-c3e6-42f7-966d-868be9be0be4
+03-25 18:00:22.040 I/a       ( 2757): deviceSchedule getStartTime = Mon Mar 25 16:19:08 GMT+08:00 2019
+03-25 18:00:22.040 I/a       ( 2757): deviceSchedule getEndTime = Mon Mar 25 23:19:08 GMT+08:00 2019
+03-25 18:00:22.040 I/a       ( 2757): deviceSchedule updateTime = 2019-03-25T09:56:30.993Z
+03-25 18:00:22.047 I/a       ( 2757): Iot ack finish
+03-25 18:00:22.123 I/g       ( 2757): status =9Message: caller =a
+03-25 18:00:22.123 I/g       ( 2757): No content
+03-25 18:00:22.124 D/a       ( 2757): updateAlarm()
+03-25 18:00:22.127 I/a       ( 2757): preSendAlarm:currentPlaySchedule:-2
+03-25 18:00:22.127 D/a       ( 2757): removeAllTask
+03-25 18:00:22.127 D/a       ( 2757): removeAllTask end
+03-25 18:00:22.127 D/a       ( 2757): enQueueTask activeSyncCount = 1
+03-25 18:00:22.127 D/a       ( 2757): enQueueTask NormalRunnable
+03-25 18:00:22.127 D/a       ( 2757): execute normal task
+03-25 18:00:22.128 D/a       ( 2757): startSyncData...
+03-25 18:00:22.129 W/ContextImpl( 2757): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1221 android.content.ContextWrapper.startService:581 swpc.wistron.com.wiwall.tv.iot.a.a:742 swpc.wistron.com.wiwall.tv.iot.a.b:748 swpc.wistron.com.wiwall.tv.iot.a.a:110 
+03-25 18:00:22.131 I/a       ( 2757): fix_currentPlaySchedule-1
+03-25 18:00:22.132 D/AlarmManagerService( 1042): Kernel timezone updated to -480 minutes west of GMT
+03-25 18:00:22.133 W/ContextImpl( 2757): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1221 android.content.ContextWrapper.startService:581 swpc.wistron.com.wiwall.tv.iot.a.b:762 swpc.wistron.com.wiwall.tv.iot.a.a:110 swpc.wistron.com.wiwall.tv.iot.a$a.onPostExecute:587 
+03-25 18:00:22.136 I/AlarmService( 2757): receive alarm INTENT_ALARM_ALARMED_ARRIVED
+03-25 18:00:22.136 I/AlarmService( 2757): currentScheduleId= -2
+03-25 18:00:22.136 I/AlarmService( 2757): scheduleId= -1
+03-25 18:00:22.136 I/AlarmService( 2757): VideoFragment= true
+03-25 18:00:22.136 D/AlarmService( 2757): INTENT_TIMETABLE_IS_UPDATED
+03-25 18:00:22.139 D/a       ( 2757): Start update from now...
+03-25 18:00:22.140 D/e       ( 2757): stopPlayingThenIdle()
+03-25 18:00:22.144 D/a       ( 2757): Free space is 7572086784 bytes
+03-25 18:00:22.148 I/g       ( 2757): status =9Message: caller:e
+03-25 18:00:22.148 I/g       ( 2757): No content
+03-25 18:00:22.148 D/e       ( 2757): removeContentThread()
+03-25 18:00:22.148 D/e       ( 2757): removeScheduleThread()
+03-25 18:00:22.148 D/e       ( 2757): stopPlaying()
+03-25 18:00:22.149 D/a       ( 2757): Free space is 7572086784 bytes
+03-25 18:00:22.149 D/a       ( 2757): Next sync content count is 0
+03-25 18:00:22.150 E/a       ( 2757): startST and endST = 0
+03-25 18:00:22.150 D/a       ( 2757): onTaskComplete activeSyncCount = 1
+03-25 18:00:22.154 I/g       ( 2757): status =9Message: caller:e
+03-25 18:00:22.154 I/g       ( 2757): No content
+03-25 18:00:22.154 D/e       ( 2757): stopContentRecord()
+03-25 18:00:22.155 D/e       ( 2757): stopPlaylistRecord()
+03-25 18:00:22.155 D/ProgramControllerImpl( 2757): removePlayer()
+03-25 18:00:22.155 D/CompositePlayer( 2757): [7028329] release from outside.
+03-25 18:00:22.155 D/CompositePlayer( 2757): [7028329] release
+03-25 18:00:22.156 D/CompositePlayer( 2757): [7028329] remove all view
+03-25 18:00:22.156 D/DrawFrameCallback( 2757): unregister choreographer callback.
+03-25 18:00:22.156 D/ProgramControllerImpl( 2757): program player is removed.
+03-25 18:00:22.157 D/ProgramControllerImpl( 2757): send id: 1471, type: 1, start time: 18:00:18, end time: 18:00:22
+03-25 18:00:22.157 D/ImagePlayer( 2757): [137312615][Player 0] release resource.
+03-25 18:00:22.158 I/e       ( 2757): imageView VISIBLE
+03-25 18:00:22.158 I/e       ( 2757): textureView GONE
+03-25 18:00:22.158 I/g       ( 2757): TextHidden =false
+03-25 18:00:22.182 I/InputReader( 1042): Reconfiguring input devices.  changes=0x00000004
+03-25 18:00:22.200 I/WindowManager( 1042): Screen frozen for +41ms due to Window{2e2f03c u0 Starting swpc.wistron.com.wiwall.tv}
+03-25 18:00:24.213 I/art     ( 1042): Starting a blocking GC Explicit
+03-25 18:00:24.236 D/wpa_supplicant( 1600): wlan0: Control interface command 'SIGNAL_POLL'
+03-25 18:00:24.238 D/wpa_supplicant( 1600): CTRL-DEBUG: global_ctrl_sock-sendto: sock=11 sndbuf=212992 outq=0 send_len=49
+03-25 18:00:24.242 D/ConnectivityService( 1042): updateNetworkScore for NetworkAgentInfo [WIFI () - 100] to 60
+03-25 18:00:24.307 I/art     ( 1042): Explicit concurrent mark sweep GC freed 3531(177KB) AllocSpace objects, 1(76KB) LOS objects, 33% free, 9MB/13MB, paused 1.649ms total 93.783ms
+03-25 18:00:25.893 I/MSM-irqbalance(  581): Decided to move IRQ310 from CPU3 to CPU0
